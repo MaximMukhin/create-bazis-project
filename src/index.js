@@ -87,8 +87,8 @@ const collPars = (arr) => {
     //return result //=
     console.log('collObj', collObj)
 };
-
 console.log('coll-End', coll)  //=
+
 
 const file = (objArt) => {
 
@@ -99,9 +99,9 @@ const file = (objArt) => {
             const text = `
     <File>
       <Type>0</Type>
-      <Name>${i}</Name>
+      <Name>${articles2[i].link}</Name>
       <SubName/>
-      <Sign>${collObj.article}</Sign>
+      <Sign>${collObj[i].article}</Sign>
       <Note/>
       <Comment/>
       <Count>${collObj[i].qty}</Count>
@@ -110,7 +110,9 @@ const file = (objArt) => {
             if (result === '') result = text;
             else result += text;
         }
+        console.log('file')
     return result;
+
 };
 
 const xml = `
@@ -127,9 +129,10 @@ const xml = `
     <EstimateInfo/>
   </DataProject>
 </Document>
+${console.log('xml')}
 `;
 
 
-// функция загрузки
+// функция Скачки
 let blob = new Blob([xml], { type: 'text/plain' });
 link.href = URL.createObjectURL(blob);
