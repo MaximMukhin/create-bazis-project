@@ -38,10 +38,10 @@ const articles2 = [
 //];
 
 
-// заказ клиента
-// const coll = []
-// const collObj = []
-// console.log('coll-Start', coll) //=
+const coll = []  // заказ клиента 
+const collObj = [] // заказ клиента 
+
+console.log('coll-Start', coll) //=
 
 // функция загрузки файла
 function readFile(input) {
@@ -55,15 +55,15 @@ function readFile(input) {
         //разбиваю на массив
         const strSlice = res.split('\n')
         //console.log('strSlice', strSlice)
-        //разбиваю на обьект
-        //const newParsArr = collPars(strSlice)
-        //console.log('newParsArr', newParsArr)
+
         //добавляю в колекцию массив
         for (let i = 0; i < strSlice.length; i++) {
           coll.push(strSlice[i])
         }
         
-        console.log('res', res)
+        console.log('coll.length', coll.length)
+        //разбиваю на обьект
+        collPars(coll)
     };
 };
 
@@ -75,9 +75,11 @@ const collPars = (arr) => {
     const arrPars = []
     console.log('arr', arr.length)
 
+    //разбиваю строки на масивы артикул + количество
     for (let i = 0; i < arr.length; i++) {
         arrPars.push(coll[i].split('\t'))
     }
+
     for (let j = 0; j < arrPars.length; j++) {
     //    result.push({ article: arrPars[j][0], qty: arrPars[j][1] })
         collObj.push({ article: arrPars[j][0], qty: arrPars[j][1] })
@@ -88,8 +90,7 @@ const collPars = (arr) => {
 
 console.log('coll-End', coll)  //=
 
-
-const file = () => {
+const file = (objArt) => {
 
     let result = '';
 
@@ -109,7 +110,6 @@ const file = () => {
             if (result === '') result = text;
             else result += text;
         }
-    
     return result;
 };
 
@@ -129,7 +129,6 @@ const xml = `
 </Document>
 `;
 
-console.log(xml)
 
 // функция загрузки
 let blob = new Blob([xml], { type: 'text/plain' });
