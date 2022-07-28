@@ -11,67 +11,73 @@
 //}
 //str //=
 
-const articlesObj = [
+const Products = [
+  {
+    article: "ADELINA-P-T02-60-2B-MR960",
+    series: "ADELINA-P-T02",
+    link: "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F21L-106-SF027.b3d",
+  },
+  {
+    article: "BELLA-L-F21-106-SF027-L",
+    series: "BELLA-L-F21",
+    link: "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F21L-106-SF027.b3d",
+  },
   {
     article: "AURORA-800-2C-SO-RT",
-    qty: "7",
+    series: "Aurora",
+    link: "\\Серия\\Мебель для ванной\\AU_KR\\(RT) Rovere Tabacco - Дуб Галифакс табак H1181 ST37\\AU45-80_RT.b3d",
   },
   {
     article: "CADRO-80-1C-SO-BG-BLUM",
-    qty: "3",
+    series: "Cadro",
+    link: "\\Серия\\Мебель для ванной\\Cadro\\(BG) Bianco Ghiaccio - Белый лёд Atlas OSS\\Cadro-80_BG.b3d",
   },
   {
     article: "KRAFT 39-500/390-2C-SO-BO",
-    qty: "5",
+    series: "Kraft 39",
+    link: "\\Серия\\Мебель для ванной\\AU_KR\\(BO) Bianco Opaco - Белый базовый W908 SM\\KR39-50_BO.b3d",
   },
   {
     article: "KRAFT 39-500/390-2C-SO-CG",
-    qty: "5",
+    series: "Kraft 39",
+    link: "\\Серия\\Мебель для ванной\\AU_KR\\(CG) Cemento Grigio - Бетон D3274 SM\\KR39-50_CG.b3d",
   },
   {
     article: "KRAFT 39-500/390-2C-SO-RNN",
-    qty: "13",
+    series: "Kraft 39",
+    link: "\\Серия\\Мебель для ванной\\AU_KR\\(RNN) Rovere Nebrasca Nature - Дуб Небраска натуральный H3331 ST10\\KR39-50_RNN.b3d",
   },
 ];
 
-const file = () => {
-  let result = "";
-
-  for (let i = 0; i < articlesObj.length; i += 1) {
-    const text = `
-  <File>
-    <Type>0</Type>
-    <Name>${"articles2[i].link"}</Name>
-    <SubName/>
-    <Sign>${articlesObj[i].article}</Sign>
-    <Note/>
-    <Comment/>
-    <Count>${articlesObj[i].qty}</Count>
-  </File>
-  `;
-    if (result === "") result = text;
-    else result += text;
+const articlesObj = [
+  {
+    article: "AURORA-800-2C-SO-RT",
+    qty: "7"
+  },
+  {
+    article: "CADRO-80-1C-SO-BG-BLUM",
+    qty: "3"
+  },
+  {
+    article: "KRAFT 39-500/390-2C-SO-BO",
+    qty: "5"
+  },
+  {
+    article: "KRAFT 39-500/390-2C-SO-CG",
+    qty: "5"
+  },
+  {
+    article: "KRAFT 39-500/390-2C-SO-RNN",
+    qty: "13"
   }
-  return result;
-};
+];
 
-const xml = `
-<?xml version="1.0" encoding="UTF-8"?>
-<Document>
-<DataProject>
-  <ListFiles>
-  ${file()}
-    </ListFiles>
-  <CuttingInfo>
-    <Parameters/>
-    <ProductCount>1</ProductCount>
-  </CuttingInfo>
-  <EstimateInfo/>
-</DataProject>
-</Document>
-`;
+const toWork = [];
 
-console.log(xml); //=
+for (const key of Products) {
+  
 
-let blob = new Blob([xml], { type: "text/plain" });
-link.href = URL.createObjectURL(blob);
+  }
+
+  const toJson = JSON.stringify(articlesObj) //=
+  const json = JSON.parse(toJson) //=
