@@ -1,17 +1,4 @@
-//const obj = [
-//  {art: '111', qty: '1'},
-//  {art: '222', qty: '2'},
-//  {art: '333', qty: '3'},
-//  {art: '444', qty: '4'},
-//];
-//
-//let str = ''
-//for (const item of obj) {
-//  str += `<div>art ${item.art} qty ${item.qty}<div>`
-//}
-//str //=
-
-const Products = [
+const products = [
   {
     article: "ADELINA-P-T02-60-2B-MR960",
     series: "ADELINA-P-T02",
@@ -74,10 +61,11 @@ const articlesObj = [
 
 const toWork = [];
 
-for (const key of Products) {
-  
-
+for (const key of articlesObj) {
+  const result = products.find((el) => el.article === key.article)
+  toWork.push({article: key.article, qty: key.qty, link: result.link, series: result.series})
   }
 
-  const toJson = JSON.stringify(articlesObj) //=
-  const json = JSON.parse(toJson) //=
+
+
+    toWork //=

@@ -1,5 +1,5 @@
 // база артикулов
-const Products = [
+const products = [
   {
     article: "ADELINA-P-T02-60-2B-MR960",
     series: "ADELINA-P-T02",
@@ -95,6 +95,7 @@ function readFile(input) {
 
     //разбиваю на обьект
     articlesPars(articles);
+    objectToWork()
     outList();
     outList2();
     console.log(articlesObj)
@@ -118,40 +119,28 @@ const articlesPars = (arr) => {
   //return result //=
 };
 
-// const file = () => {
-//   let result = "";
-//   for (let i = 0; i < articlesObj.length; i += 1) {
-//     const text = `
-//     <File>
-//       <Type>0</Type>
-//       <Name>${"articles2[i].link"}</Name>
-//       <SubName/>
-//       <Sign>${articlesObj[i].article}</Sign>
-//       <Note/>
-//       <Comment/>
-//       <Count>${articlesObj[i].qty}</Count>
-//     </File>
-//     `;
-//     if (result === "") result = text;
-//     else result += text;
-//   }
-//   return result;
-// 
-// };
+// обьект с сылками на заказ
+const objectToWork = () => {
+  for (const key of articlesObj) {
+    const result = products.find((el) => el.article === key.article)
+    toWork.push({ article: key.article, qty: key.qty, link: result.link, series: result.series })
+  }
+}
+objectToWork();
 
 const file = () => {
   let result = "";
-  console.log(articlesObj.length)
-  for (let i = 0; i < articlesObj.length; i += 1) {
+  console.log(toWork.length)
+  for (let i = 0; i < toWork.length; i += 1) {
     const text = `
     <File>
       <Type>0</Type>
-      <Name>${"articles2[i].link"}</Name>
+      <Name>${toWork[i].link}</Name>
       <SubName/>
-      <Sign>${articlesObj[i].article}</Sign>
+      <Sign>${toWork[i].article}</Sign>
       <Note/>
       <Comment/>
-      <Count>${articlesObj[i].qty}</Count>
+      <Count>${toWork[i].qty}</Count>
     </File>
     `;
     if (result === "") result = text;
@@ -176,24 +165,6 @@ const file = () => {
 
   return xml
 };
-
-// const xml = `
-// <?xml version="1.0" encoding="UTF-8"?>
-// <Document>
-//   <DataProject>
-//     <ListFiles>
-//     ${file()}
-//       </ListFiles>
-//     <CuttingInfo>
-//       <Parameters/>
-//       <ProductCount>1</ProductCount>
-//     </CuttingInfo>
-//     <EstimateInfo/>
-//   </DataProject>
-// </Document>
-// `;
-
-//console.log(xml);
 
 //отрисовка списка
 const outList = () => {
@@ -239,3 +210,4 @@ function download() {
 
 outList();
 outList2();
+console.log(toWork)
