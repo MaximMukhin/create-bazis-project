@@ -29,12 +29,11 @@ const articles2 = [
 // console.log(articles2[0].link)
 // заказ клиента
 //const coll = [
-//    'KRAFT 39-500/390-2C-SO-BO	5',
-//    'KRAFT 39-500/390-2C-SO-CG	5',
-//    'KRAFT 39-500/390-2C-SO-RNN	13',
-//    'KRAFT 39-600/390-2C-SO-BO	3',
-//    'KRAFT 39-600/390-2C-SO-RNN	10',
-//    'KRAFT 39-600/390-2C-SO-RT	10',
+//'AURORA-800-2C-SO-RT	7',
+//'CADRO-80-1C-SO-BG-BLUM	3',
+//'KRAFT 39-500/390-2C-SO-BO	5',
+//'KRAFT 39-500/390-2C-SO-CG	5',
+//'KRAFT 39-500/390-2C-SO-RNN	13',
 //];
 
 
@@ -112,8 +111,9 @@ const file = (objArt) => {
         }
         console.log('file')
     return result;
-
 };
+
+file() //=
 
 const xml = `
 <?xml version="1.0" encoding="UTF-8"?>
