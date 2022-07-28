@@ -66,8 +66,6 @@ const articles2 = [
 const articles = []; // заказ клиента
 const articlesObj = []; // заказ клиента
 
-console.log("articles-Start", articles); //=
-
 // функция загрузки файла
 function readFile(input) {
   let file = input.files[0];
@@ -87,7 +85,6 @@ function readFile(input) {
     }
     document.getElementById("text-file").innerHTML = res;
 
-    console.log("articles.length", articles.length);
     //разбиваю на обьект
     articlesPars(articles);
     outList();
@@ -95,13 +92,10 @@ function readFile(input) {
   };
 }
 
-console.log("articles-Center", articles);
-
 // разбиваем заказ клиента на обьекты
 const articlesPars = (arr) => {
   //const result = []
   const arrPars = [];
-  console.log("arr", arr.length);
 
   //разбиваю строки на масивы артикул + количество
   for (let i = 0; i < arr.length; i++) {
@@ -113,13 +107,10 @@ const articlesPars = (arr) => {
     articlesObj.push({ article: arrPars[j][0], qty: arrPars[j][1] });
   }
   //return result //=
-  console.log("articlesObj", articlesObj);
 };
-console.log("articles-End", articles); //=
 
 const file = () => {
   let result = "";
-
   for (let i = 0; i < articlesObj.length; i += 1) {
     const text = `
     <File>
