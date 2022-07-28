@@ -1,20 +1,5 @@
-// import express from 'express'
-// import articles from "./articles.js";
-
-// const app = express();
-// const PORT = 3000;
-//
-// app.use(express.json())
-//
-// app.post('/', (req,res) => {
-//     console.log(req.body);
-//     res.status(200).json('Server work')
-// })
-//
-// app.listen(PORT, () => console.log(`Server started on port ${PORT}...`))
-
 // база артикулов
-const articles2 = [
+const Products = [
   {
     article: "ADELINA-P-T02-60-2B-MR960",
     series: "ADELINA-P-T02",
@@ -52,19 +37,40 @@ const articles2 = [
   },
 ];
 
-// console.log(articles2) //=
-// console.log(articles2[0].link)
 // заказ клиента
-//const articles = [
-//'AURORA-800-2C-SO-RT	7',
-//'CADRO-80-1C-SO-BG-BLUM	3',
-//'KRAFT 39-500/390-2C-SO-BO	5',
-//'KRAFT 39-500/390-2C-SO-CG	5',
-//'KRAFT 39-500/390-2C-SO-RNN	13',
-//];
+const articles = [
+'AURORA-800-2C-SO-RT	7',
+'CADRO-80-1C-SO-BG-BLUM	3',
+'KRAFT 39-500/390-2C-SO-BO	5',
+'KRAFT 39-500/390-2C-SO-CG	5',
+'KRAFT 39-500/390-2C-SO-RNN	13',
+];
 
-const articles = []; // заказ клиента
-const articlesObj = []; // заказ клиента
+const articlesObj = [
+    {
+        "article": "AURORA-800-2C-SO-RT",
+        "qty": "7"
+    },
+    {
+        "article": "CADRO-80-1C-SO-BG-BLUM",
+        "qty": "3"
+    },
+    {
+        "article": "KRAFT 39-500/390-2C-SO-BO",
+        "qty": "5"
+    },
+    {
+        "article": "KRAFT 39-500/390-2C-SO-CG",
+        "qty": "5"
+    },
+    {
+        "article": "KRAFT 39-500/390-2C-SO-RNN",
+        "qty": "13"
+    }
+];
+
+// const articles = []; // заказ клиента
+// const articlesObj = []; // заказ клиента
 
 // функция загрузки файла
 function readFile(input) {
@@ -89,6 +95,7 @@ function readFile(input) {
     articlesPars(articles);
     outList();
     outList2();
+    console.log(articlesObj)
   };
 }
 
@@ -109,8 +116,30 @@ const articlesPars = (arr) => {
   //return result //=
 };
 
+// const file = () => {
+//   let result = "";
+//   for (let i = 0; i < articlesObj.length; i += 1) {
+//     const text = `
+//     <File>
+//       <Type>0</Type>
+//       <Name>${"articles2[i].link"}</Name>
+//       <SubName/>
+//       <Sign>${articlesObj[i].article}</Sign>
+//       <Note/>
+//       <Comment/>
+//       <Count>${articlesObj[i].qty}</Count>
+//     </File>
+//     `;
+//     if (result === "") result = text;
+//     else result += text;
+//   }
+//   return result;
+// 
+// };
+
 const file = () => {
   let result = "";
+  console.log(articlesObj.length)
   for (let i = 0; i < articlesObj.length; i += 1) {
     const text = `
     <File>
@@ -126,15 +155,13 @@ const file = () => {
     if (result === "") result = text;
     else result += text;
   }
-  return result;
-};
 
-const xml = `
+  const xml = `
 <?xml version="1.0" encoding="UTF-8"?>
 <Document>
   <DataProject>
     <ListFiles>
-    ${file()}
+    ${result}
       </ListFiles>
     <CuttingInfo>
       <Parameters/>
@@ -145,9 +172,28 @@ const xml = `
 </Document>
 `;
 
-console.log(xml);
+  return xml
+};
 
-//отрисовкап списка
+// const xml = `
+// <?xml version="1.0" encoding="UTF-8"?>
+// <Document>
+//   <DataProject>
+//     <ListFiles>
+//     ${file()}
+//       </ListFiles>
+//     <CuttingInfo>
+//       <Parameters/>
+//       <ProductCount>1</ProductCount>
+//     </CuttingInfo>
+//     <EstimateInfo/>
+//   </DataProject>
+// </Document>
+// `;
+
+//console.log(xml);
+
+//отрисовка списка
 const outList = () => {
   let out = "";
   for (article in articles) {
@@ -156,6 +202,7 @@ const outList = () => {
   document.getElementById("text-file-array").innerHTML = out;
 };
 
+//отрисовка списка
 const outList2 = () => {
   let out2 = "";
   for (article of articlesObj) {
@@ -168,6 +215,25 @@ const xmlNew = `<p>${file()}</p>`;
 document.getElementById("xml-file").innerHTML = xmlNew;
 console.log(xmlNew);
 
+
 // функция Скачки
-let blob = new Blob([xml], { type: "text/plain" });
-link.href = URL.createObjectURL(blob);
+document.querySelector('.btn-download').addEventListener('click', download)
+
+function download() {
+
+  let str = file();
+  console.log(str)
+
+  let link = document.createElement('a');
+  link.download = 'bazis.txt';
+  let blob = new Blob([str], { type: 'text/plain' });
+  link.href = URL.createObjectURL(blob);
+  link.click();
+  URL.revokeObjectURL(link.href);
+  console.log('download')
+}
+
+
+
+outList();
+outList2();
