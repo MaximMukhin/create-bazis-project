@@ -24,3 +24,5 @@ pnpm-debug.log*
 node_modules
 src/articles-iberis.json
 src/pars.js
+src/articles-acqua-craft.json
+src/articles-art-max.json
