@@ -1,41 +1,47 @@
+import {artMax, acquaCraft, iberis} from './products.js'
+
+const productsAll = [...artMax, ...acquaCraft, ...iberis]
+console.log('productsAll' ,productsAll) 
+
 // база артикулов
-const products = [
-  {
-    article: "ADELINA-P-T02-60-2B-MR960",
-    series: "ADELINA-P-T02",
-    link: "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F21L-106-SF027.b3d",
-  },
-  {
-    article: "BELLA-L-F21-106-SF027-L",
-    series: "BELLA-L-F21",
-    link: "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F21L-106-SF027.b3d",
-  },
-  {
-    article: "AURORA-800-2C-SO-RT",
-    series: "Aurora",
-    link: "\\Серия\\Мебель для ванной\\AU_KR\\(RT) Rovere Tabacco - Дуб Галифакс табак H1181 ST37\\AU45-80_RT.b3d",
-  },
-  {
-    article: "CADRO-80-1C-SO-BG-BLUM",
-    series: "Cadro",
-    link: "\\Серия\\Мебель для ванной\\Cadro\\(BG) Bianco Ghiaccio - Белый лёд Atlas OSS\\Cadro-80_BG.b3d",
-  },
-  {
-    article: "KRAFT 39-500/390-2C-SO-BO",
-    series: "Kraft 39",
-    link: "\\Серия\\Мебель для ванной\\AU_KR\\(BO) Bianco Opaco - Белый базовый W908 SM\\KR39-50_BO.b3d",
-  },
-  {
-    article: "KRAFT 39-500/390-2C-SO-CG",
-    series: "Kraft 39",
-    link: "\\Серия\\Мебель для ванной\\AU_KR\\(CG) Cemento Grigio - Бетон D3274 SM\\KR39-50_CG.b3d",
-  },
-  {
-    article: "KRAFT 39-500/390-2C-SO-RNN",
-    series: "Kraft 39",
-    link: "\\Серия\\Мебель для ванной\\AU_KR\\(RNN) Rovere Nebrasca Nature - Дуб Небраска натуральный H3331 ST10\\KR39-50_RNN.b3d",
-  },
-];
+const products = productsAll
+// const products = [
+//   {
+//     article: "ADELINA-P-T02-60-2B-MR960",
+//     series: "ADELINA-P-T02",
+//     link: "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F21L-106-SF027.b3d",
+//   },
+//   {
+//     article: "BELLA-L-F21-106-SF027-L",
+//     series: "BELLA-L-F21",
+//     link: "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F21L-106-SF027.b3d",
+//   },
+//   {
+//     article: "AURORA-800-2C-SO-RT",
+//     series: "Aurora",
+//     link: "\\Серия\\Мебель для ванной\\AU_KR\\(RT) Rovere Tabacco - Дуб Галифакс табак H1181 ST37\\AU45-80_RT.b3d",
+//   },
+//   {
+//     article: "CADRO-80-1C-SO-BG-BLUM",
+//     series: "Cadro",
+//     link: "\\Серия\\Мебель для ванной\\Cadro\\(BG) Bianco Ghiaccio - Белый лёд Atlas OSS\\Cadro-80_BG.b3d",
+//   },
+//   {
+//     article: "KRAFT 39-500/390-2C-SO-BO",
+//     series: "Kraft 39",
+//     link: "\\Серия\\Мебель для ванной\\AU_KR\\(BO) Bianco Opaco - Белый базовый W908 SM\\KR39-50_BO.b3d",
+//   },
+//   {
+//     article: "KRAFT 39-500/390-2C-SO-CG",
+//     series: "Kraft 39",
+//     link: "\\Серия\\Мебель для ванной\\AU_KR\\(CG) Cemento Grigio - Бетон D3274 SM\\KR39-50_CG.b3d",
+//   },
+//   {
+//     article: "KRAFT 39-500/390-2C-SO-RNN",
+//     series: "Kraft 39",
+//     link: "\\Серия\\Мебель для ванной\\AU_KR\\(RNN) Rovere Nebrasca Nature - Дуб Небраска натуральный H3331 ST10\\KR39-50_RNN.b3d",
+//   },
+// ];
 
 // заказ клиента
 const articles = [
@@ -75,7 +81,7 @@ const toWork = [];
 // const articlesObj = []; // заказ клиента
 
 // функция загрузки файла
-function readFile(input) {
+export function readFile(input) {
   let file = input.files[0];
 
   let reader = new FileReader();
@@ -98,7 +104,7 @@ function readFile(input) {
     objectToWork()
     outList();
     outList2();
-    console.log(articlesObj)
+    console.log('articlesObj', articlesObj)
   };
 }
 
@@ -126,7 +132,7 @@ const objectToWork = () => {
     toWork.push({ article: key.article, qty: key.qty, link: result.link, series: result.series })
   }
 }
-objectToWork();
+//objectToWork();
 
 const file = () => {
   let result = "";
@@ -169,7 +175,7 @@ const file = () => {
 //отрисовка списка
 const outList = () => {
   let out = "";
-  for (article in articles) {
+  for (const article in articles) {
     out += `<div>${articles[article]}</div>`;
   }
   document.getElementById("text-file-array").innerHTML = out;
@@ -178,7 +184,7 @@ const outList = () => {
 //отрисовка списка
 const outList2 = () => {
   let out2 = "";
-  for (article of articlesObj) {
+  for (const article of articlesObj) {
     out2 += `<div>art: ${article.article} - qty: ${article.qty}<div>`;
   }
   document.getElementById("text-file-object").innerHTML = out2;
@@ -210,4 +216,4 @@ function download() {
 
 outList();
 outList2();
-console.log(toWork)
+console.log('toWork', toWork)
