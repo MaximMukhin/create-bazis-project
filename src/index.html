@@ -13,7 +13,8 @@
 <body>
     <h1>create-bazis-project</h1>
 
-    <input type="file" onchange="readFile(this)">
+
+    <input id="input-file" type="file">
     <hr>
 <!--     <a download="bazis.txt" href='#' id="link">Загрузить</a> -->
     <button class="btn-download">Скачать проект</button>
@@ -43,7 +44,6 @@
     </div>
 
     <script type="module" src="index.js">
-        import { readFile } from './index.js'
     </script>
 </body>
 

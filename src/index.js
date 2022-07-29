@@ -44,41 +44,41 @@ const products = productsAll
 // ];
 
 // заказ клиента
-const articles = [
-  'AURORA-800-2C-SO-RT	7',
-  'CADRO-80-1C-SO-BG-BLUM	3',
-  'KRAFT 39-500/390-2C-SO-BO	5',
-  'KRAFT 39-500/390-2C-SO-CG	5',
-  'KRAFT 39-500/390-2C-SO-RNN	13',
-];
+// const articles = [
+//   'AURORA-800-2C-SO-RT	7',
+//   'CADRO-80-1C-SO-BG-BLUM	3',
+//   'KRAFT 39-500/390-2C-SO-BO	5',
+//   'KRAFT 39-500/390-2C-SO-CG	5',
+//   'KRAFT 39-500/390-2C-SO-RNN	13',
+// ];
+// 
+// const articlesObj = [
+//   {
+//     article: "AURORA-800-2C-SO-RT",
+//     qty: "7"
+//   },
+//   {
+//     article: "CADRO-80-1C-SO-BG-BLUM",
+//     qty: "3"
+//   },
+//   {
+//     article: "KRAFT 39-500/390-2C-SO-BO",
+//     qty: "5"
+//   },
+//   {
+//     article: "KRAFT 39-500/390-2C-SO-CG",
+//     qty: "5"
+//   },
+//   {
+//     article: "KRAFT 39-500/390-2C-SO-RNN",
+//     qty: "13"
+//   }
+// ];
 
-const articlesObj = [
-  {
-    article: "AURORA-800-2C-SO-RT",
-    qty: "7"
-  },
-  {
-    article: "CADRO-80-1C-SO-BG-BLUM",
-    qty: "3"
-  },
-  {
-    article: "KRAFT 39-500/390-2C-SO-BO",
-    qty: "5"
-  },
-  {
-    article: "KRAFT 39-500/390-2C-SO-CG",
-    qty: "5"
-  },
-  {
-    article: "KRAFT 39-500/390-2C-SO-RNN",
-    qty: "13"
-  }
-];
+const articles = []; // заказ клиента
+const articlesObj = []; // заказ клиента
 
 const toWork = [];
-
-// const articles = []; // заказ клиента
-// const articlesObj = []; // заказ клиента
 
 // функция загрузки файла
 export function readFile(input) {
@@ -212,8 +212,15 @@ function download() {
   console.log('download')
 }
 
+// запуск чтения файла
+const inputFile = document.getElementById('input-file')
+inputFile.addEventListener('change', () => {
+  readFile(inputFile)
+})
 
 
-outList();
-outList2();
-console.log('toWork', toWork)
+// outList();
+// outList2();
+// console.log('toWork', toWork)
+// articlesPars(articles);
+// objectToWork()
