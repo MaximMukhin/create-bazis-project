@@ -129,7 +129,7 @@ const articlesPars = (arr) => {
 const objectToWork = () => {
   for (const key of articlesObj) {
     const result = products.find((el) => el.article === key.article)
-    toWork.push({ article: key.article, qty: key.qty, link: result.link, series: result.series })
+    toWork.push({ article: key.article, qty: key.qty, link: result?.link, series: result?.series })
   }
 }
 //objectToWork();
