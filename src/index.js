@@ -102,6 +102,7 @@ export function readFile(input) {
     //разбиваю на обьект
     articlesPars(articles);
     objectToWork()
+    console.log('toWork', toWork)
     outList();
     outList2();
     console.log('articlesObj', articlesObj)
@@ -129,7 +130,11 @@ const articlesPars = (arr) => {
 const objectToWork = () => {
   for (const key of articlesObj) {
     const result = products.find((el) => el.article === key.article)
-    toWork.push({ article: key.article, qty: key.qty, link: result?.link, series: result?.series })
+    console.log('result', result)
+    if (key.article === result?.article) {
+      toWork.push({ article: key.article, qty: key.qty, link: result?.link, series: result?.series })
+    }
+    
   }
 }
 //objectToWork();
