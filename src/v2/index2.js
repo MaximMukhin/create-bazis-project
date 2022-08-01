@@ -79,7 +79,7 @@ const articles = []; // заказ клиента
 const articlesObj = []; // заказ клиента
 
 const toWork = [];
-
+const order = 'AC-05'
 // функция загрузки файла
 export function readFile(input) {
   let file = input.files[0];
@@ -209,7 +209,7 @@ function download() {
   console.log(str)
 
   let link = document.createElement('a');
-  link.download = 'bazis.txt';
+  link.download = `${order}.txt`;
   let blob = new Blob([str], { type: 'text/plain' });
   link.href = URL.createObjectURL(blob);
   link.click();
