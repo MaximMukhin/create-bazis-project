@@ -75,13 +75,16 @@ const products = productsAll
 //   }
 // ];
 
-const articles = []; // заказ клиента
-const articlesObj = []; // заказ клиента
+let articles = []; // заказ клиента
+let articlesObj = []; // заказ клиента
 
 const toWork = [];
 const order = 'AC-05'
 // функция загрузки файла
 export function readFile(input) {
+  articles = [];
+  articlesObj = [];
+
   let file = input.files[0];
 
   let reader = new FileReader();

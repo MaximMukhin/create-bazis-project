@@ -1,7 +1,7 @@
-import {artMax, acquaCraft, iberis} from './products.js'
+import { artMax, acquaCraft, iberis } from './products.js'
 
 const productsAll = [...artMax, ...acquaCraft, ...iberis]
-console.log('productsAll' ,productsAll) 
+console.log('productsAll', productsAll)
 
 // база артикулов
 const products = productsAll
@@ -75,13 +75,16 @@ const products = productsAll
 //   }
 // ];
 
-const articles = []; // заказ клиента
-const articlesObj = []; // заказ клиента
+let articles = []; // заказ клиента
+let articlesObj = []; // заказ клиента
 
 const toWork = [];
 
 // функция загрузки файла
 export function readFile(input) {
+  articles = [];
+  articlesObj = [];
+
   let file = input.files[0];
 
   let reader = new FileReader();
@@ -134,7 +137,7 @@ const objectToWork = () => {
     if (key.article === result?.article) {
       toWork.push({ article: key.article, qty: key.qty, link: result?.link, series: result?.series })
     }
-    
+
   }
 }
 //objectToWork();
@@ -189,8 +192,10 @@ const outList = () => {
 //отрисовка списка
 const outList2 = () => {
   let out2 = "";
+  let count = 1;
   for (const article of articlesObj) {
-    out2 += `<div>art: ${article.article} - qty: ${article.qty}<div>`;
+    out2 += `<div>count:${count} art: ${article.article} - qty: ${article.qty}<div>`;
+    count += 1;
   }
   document.getElementById("text-file-object").innerHTML = out2;
 };
