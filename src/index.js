@@ -81,7 +81,7 @@ let articlesObj = []; // заказ клиента
 const toWork = [];
 
 // функция загрузки файла
-export function readFile(input) {
+const readFile = (input) => {
   articles = [];
   articlesObj = [];
 
@@ -129,14 +129,14 @@ const articlesPars = (arr) => {
   //return result //=
 };
 
-// обьект с сылками на заказ
+//делаю обьект с сылками на заказ
 const objectToWork = () => {
   for (const key of articlesObj) {
     const result = products.find((el) => el.article === key.article)
     console.log('result', result)
     if (key.article === result?.article) {
       toWork.push({ article: key.article, qty: key.qty, link: result?.link, series: result?.series })
-    }
+    } else { console.log('Артикул не найден:', key.article)}
 
   }
 }
