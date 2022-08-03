@@ -5,80 +5,21 @@ console.log('productsAll', productsAll)
 
 // база артикулов
 const products = productsAll
-// const products = [
-//   {
-//     article: "ADELINA-P-T02-60-2B-MR960",
-//     series: "ADELINA-P-T02",
-//     link: "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F21L-106-SF027.b3d",
-//   },
-//   {
-//     article: "BELLA-L-F21-106-SF027-L",
-//     series: "BELLA-L-F21",
-//     link: "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F21L-106-SF027.b3d",
-//   },
-//   {
-//     article: "AURORA-800-2C-SO-RT",
-//     series: "Aurora",
-//     link: "\\Серия\\Мебель для ванной\\AU_KR\\(RT) Rovere Tabacco - Дуб Галифакс табак H1181 ST37\\AU45-80_RT.b3d",
-//   },
-//   {
-//     article: "CADRO-80-1C-SO-BG-BLUM",
-//     series: "Cadro",
-//     link: "\\Серия\\Мебель для ванной\\Cadro\\(BG) Bianco Ghiaccio - Белый лёд Atlas OSS\\Cadro-80_BG.b3d",
-//   },
-//   {
-//     article: "KRAFT 39-500/390-2C-SO-BO",
-//     series: "Kraft 39",
-//     link: "\\Серия\\Мебель для ванной\\AU_KR\\(BO) Bianco Opaco - Белый базовый W908 SM\\KR39-50_BO.b3d",
-//   },
-//   {
-//     article: "KRAFT 39-500/390-2C-SO-CG",
-//     series: "Kraft 39",
-//     link: "\\Серия\\Мебель для ванной\\AU_KR\\(CG) Cemento Grigio - Бетон D3274 SM\\KR39-50_CG.b3d",
-//   },
-//   {
-//     article: "KRAFT 39-500/390-2C-SO-RNN",
-//     series: "Kraft 39",
-//     link: "\\Серия\\Мебель для ванной\\AU_KR\\(RNN) Rovere Nebrasca Nature - Дуб Небраска натуральный H3331 ST10\\KR39-50_RNN.b3d",
-//   },
-// ];
-
-// заказ клиента
-// const articles = [
-//   'AURORA-800-2C-SO-RT	7',
-//   'CADRO-80-1C-SO-BG-BLUM	3',
-//   'KRAFT 39-500/390-2C-SO-BO	5',
-//   'KRAFT 39-500/390-2C-SO-CG	5',
-//   'KRAFT 39-500/390-2C-SO-RNN	13',
-// ];
-// 
-// const articlesObj = [
-//   {
-//     article: "AURORA-800-2C-SO-RT",
-//     qty: "7"
-//   },
-//   {
-//     article: "CADRO-80-1C-SO-BG-BLUM",
-//     qty: "3"
-//   },
-//   {
-//     article: "KRAFT 39-500/390-2C-SO-BO",
-//     qty: "5"
-//   },
-//   {
-//     article: "KRAFT 39-500/390-2C-SO-CG",
-//     qty: "5"
-//   },
-//   {
-//     article: "KRAFT 39-500/390-2C-SO-RNN",
-//     qty: "13"
-//   }
-// ];
 
 let articles = []; // заказ клиента
 let articlesObj = []; // заказ клиента
 
-const toWork = [];
+const toWork = []; // массив артикулов в работу
+const order = 'AC-05'
+
+
+document.getElementById('input-console').addEventListener('click', () => {
+  const inputOrder = document.getElementById('input-order').value
+  console.log(inputOrder)
+});
+
+
+
 
 // функция загрузки файла
 const readFile = (input) => {
@@ -214,7 +155,7 @@ function download() {
   console.log(str)
 
   let link = document.createElement('a');
-  link.download = 'bazis.txt';
+  link.download = `${order}.txt`;
   let blob = new Blob([str], { type: 'text/plain' });
   link.href = URL.createObjectURL(blob);
   link.click();
@@ -234,3 +175,4 @@ inputFile.addEventListener('change', () => {
 // console.log('toWork', toWork)
 // articlesPars(articles);
 // objectToWork()
+
