@@ -48,6 +48,7 @@ const readFile = (input) => {
     console.log('toWork', toWork)
     outList();
     outList2();
+    outList3();
     console.log('articlesObj', articlesObj)
     console.log('articlesNotFound', articlesNotFound)
   };
@@ -143,6 +144,15 @@ const outList2 = () => {
   document.getElementById("text-file-object").innerHTML = out2;
 };
 
+//отрисовка списка
+const outList3 = () => {
+  let out3 = "";
+  for (const article of articlesNotFound) {
+    out3 += `<div class="not-found-alarm">${article}<div>`;
+
+  }
+  document.getElementById("articlesf-not-found").innerHTML = out3;
+};
 
 // функция Скачки
 document.querySelector('.btn-download').addEventListener('click', download)
