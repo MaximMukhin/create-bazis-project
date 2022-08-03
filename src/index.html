@@ -2,51 +2,63 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>create-bazis-project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>create-bazis-project</title>
 </head>
 
 <body>
-    <h1>create-bazis-project</h1>
+  <h1>create-bazis-project</h1>
 
-    <input id="input-order" type="text" value="AC-05">
-    <button id="input-console">Получить заказ</button>
-    <hr>
-    <input id="input-file" type="file">
-    <hr>
-<!--     <a download="bazis.txt" href='#' id="link">Загрузить</a> -->
-    <button class="btn-download">Скачать проект</button>
+  <div class="form-load-text">
+    <label for="input-order">Заказ:
+      <input id="input-order" name="input-order" type="text" placeholder="Номер заказа">
+    </label>
+  </div>
 
-    <hr>
 
-    <div class="list-text">
-        <div>
-            <h4>load text file</h4>
-            <div id="text-file"></div>
-        </div>
-        <div>
-            <hr>
-            <h4>load text pars array</h4>
-            <div id="text-file-array"></div>
-        </div>
-        <div>
-            <hr>
-            <h4>load text pars object</h4>
-            <div id="text-file-object"></div>
-        </div>
-        <div>
-            <hr>
-            <h4>xml</h4>
-            <div id="xml-file"></div>
-        </div>
+  <hr>
+  <div class="form-load-file">
+
+    <label for="input-file" class="label-input-file">Загрузить проект
+      <input class="input-file" id="input-file" name="input-file" type="file">
+    </label>
+
+  </div>
+
+  <hr>
+  <!--     <a download="bazis.txt" href='#' id="link">Загрузить</a> -->
+  <button class="btn-download">Скачать проект</button>
+
+  <hr>
+
+  <div class="list-text">
+    <div>
+      <h4>load text file</h4>
+      <div id="text-file"></div>
     </div>
+    <div>
+      <hr>
+      <h4>load text pars array</h4>
+      <div id="text-file-array"></div>
+    </div>
+    <div>
+      <hr>
+      <h4>load text pars object</h4>
+      <div id="text-file-object"></div>
+    </div>
+    <div>
+      <hr>
+      <h4>xml</h4>
+      <div id="xml-file"></div>
+    </div>
+  </div>
 
-    <script type="module" src="index.js">
-    </script>
+  <script type="module" src="index.js">
+  </script>
 </body>
 
 </html>

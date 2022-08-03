@@ -10,15 +10,14 @@ let articles = []; // заказ клиента
 let articlesObj = []; // заказ клиента
 
 const toWork = []; // массив артикулов в работу
-const order = 'AC-05'
+const articlesNotFound = []; // ненайденые артикулы в базе
 
+let order = ''
 
-document.getElementById('input-console').addEventListener('click', () => {
-  const inputOrder = document.getElementById('input-order').value
-  console.log(inputOrder)
-});
-
-
+const getOrderName = () => {
+  order = document.getElementById('input-order').value
+  console.log(order)
+};
 
 
 // функция загрузки файла
@@ -50,6 +49,7 @@ const readFile = (input) => {
     outList();
     outList2();
     console.log('articlesObj', articlesObj)
+    console.log('articlesNotFound', articlesNotFound)
   };
 }
 
@@ -77,8 +77,10 @@ const objectToWork = () => {
     console.log('result', result)
     if (key.article === result?.article) {
       toWork.push({ article: key.article, qty: key.qty, link: result?.link, series: result?.series })
-    } else { console.log('Артикул не найден:', key.article)}
-
+    } else {
+      articlesNotFound.push(key.article)
+      console.log('Артикул не найден:', key.article)
+    }
   }
 }
 //objectToWork();
@@ -141,16 +143,12 @@ const outList2 = () => {
   document.getElementById("text-file-object").innerHTML = out2;
 };
 
-//const xmlNew = `<p>${file()}</p>`;
-//document.getElementById("xml-file").innerHTML = xmlNew;
-//console.log(xmlNew);
-
 
 // функция Скачки
 document.querySelector('.btn-download').addEventListener('click', download)
 
 function download() {
-
+  getOrderName()
   let str = file();
   console.log(str)
 
@@ -168,7 +166,6 @@ const inputFile = document.getElementById('input-file')
 inputFile.addEventListener('change', () => {
   readFile(inputFile)
 })
-
 
 // outList();
 // outList2();
