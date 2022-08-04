@@ -1,0 +1,397 @@
+[
+  {
+    "article": "AM-Techno-600-2C-SO-MR960",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\MR960\\TECHNO-60_MR960.b3d"
+  },
+  {
+    "article": "AM-Techno-700-2C-SO-MR960",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\MR960\\TECHNO-70_MR960.b3d"
+  },
+  {
+    "article": "AM-Techno-900-2C-SO-MR960",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\MR960\\TECHNO-90_MR960.b3d"
+  },
+  {
+    "article": "AM-Techno-600-2C-SO-LW635",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW635\\TECHNO-60_LW635.b3d"
+  },
+  {
+    "article": "AM-Techno-600-2C-SO-ZB815",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\ZB815\\TECHNO-60_ZB815.b3d"
+  },
+  {
+    "article": "AM-Techno-600-2C-SO-LW823",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW823\\TECHNO-60_LW823.b3d"
+  },
+  {
+    "article": "AM-Techno-600-2C-SO-LW674",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW674\\TECHNO-60_LW674.b3d"
+  },
+  {
+    "article": "AM-Techno-600-2C-SO-LW646",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW646\\TECHNO-60_LW646.b3d"
+  },
+  {
+    "article": "AM-Techno-600-2C-SO-LS935",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LS935\\TECHNO-60_LS935.b3d"
+  },
+  {
+    "article": "AM-Techno-600-2C-SO-FC305",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\FC305\\TECHNO-60_FC305.b3d"
+  },
+  {
+    "article": "AM-Techno-700-2C-SO-LW635",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW635\\TECHNO-70_LW635.b3d"
+  },
+  {
+    "article": "AM-Techno-700-2C-SO-ZB815",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\ZB815\\TECHNO-70_ZB815.b3d"
+  },
+  {
+    "article": "AM-Techno-700-2C-SO-LW823",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW823\\TECHNO-70_LW823.b3d"
+  },
+  {
+    "article": "AM-Techno-700-2C-SO-LW674",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW674\\TECHNO-70_LW674.b3d"
+  },
+  {
+    "article": "AM-Techno-700-2C-SO-LW646",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW646\\TECHNO-70_LW646.b3d"
+  },
+  {
+    "article": "AM-Techno-700-2C-SO-LS935",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LS935\\TECHNO-70_LS935.b3d"
+  },
+  {
+    "article": "AM-Techno-700-2C-SO-FC305",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\FC305\\TECHNO-70_FC305.b3d"
+  },
+  {
+    "article": "AM-Techno-900-2C-SO-LW635",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW635\\TECHNO-90_LW635.b3d"
+  },
+  {
+    "article": "AM-Techno-900-2C-SO-ZB815",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\ZB815\\TECHNO-90_ZB815.b3d"
+  },
+  {
+    "article": "AM-Techno-900-2C-SO-LW823",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW823\\TECHNO-90_LW823.b3d"
+  },
+  {
+    "article": "AM-Techno-900-2C-SO-LW674",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW674\\TECHNO-90_LW674.b3d"
+  },
+  {
+    "article": "AM-Techno-900-2C-SO-LW646",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW646\\TECHNO-90_LW646.b3d"
+  },
+  {
+    "article": "AM-Techno-900-2C-SO-LS935",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LS935\\TECHNO-90_LS935.b3d"
+  },
+  {
+    "article": "AM-Techno-900-2C-SO-FC305",
+    "series": "Techno",
+    "link": "\\Серия\\ArtMax\\TECHNO\\FC305\\TECHNO-90_FC305.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-FC305-L",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\FC305\\TECHNO-AC-160-L_FC305.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-FC305-R",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\FC305\\TECHNO-AC-160-R_FC305.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-LS935-L",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LS935\\TECHNO-AC-160-L_LS935.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-LS935-R",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LS935\\TECHNO-AC-160-R_LS935.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-LW635-L",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW635\\TECHNO-AC-160-L_LW635.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-LW635-R",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW635\\TECHNO-AC-160-R_LW635.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-LW646-L",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW646\\TECHNO-AC-160-L_LW646.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-LW646-R",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW646\\TECHNO-AC-160-R_LW646.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-LW674-L",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW674\\TECHNO-AC-160-L_LW674.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-LW674-R",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW674\\TECHNO-AC-160-R_LW674.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-LW823-L",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW823\\TECHNO-AC-160-L_LW823.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-LW823-R",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\LW823\\TECHNO-AC-160-R_LW823.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-MR960-L",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\MR960\\TECHNO-AC-160-L_MR960.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-MR960-R",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\MR960\\TECHNO-AC-160-R_MR960.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-ZB815-L",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\ZB815\\TECHNO-AC-160-L_ZB815.b3d"
+  },
+  {
+    "article": "AM-Techno-1600-AC-SO-ZB815-R",
+    "series": "Techno AC-SO",
+    "link": "\\Серия\\ArtMax\\TECHNO\\ZB815\\TECHNO-AC-160-R_ZB815.b3d"
+  },
+  {
+    "article": "AM-Maxima-800-2C-SO-RB",
+    "series": "Maxima",
+    "link": "\\Серия\\ArtMax\\Maxima\\Maxima-RB\\Maxima46-80_RB.b3d"
+  },
+  {
+    "article": "AM-Bianchi-600-2C-SO-MR960",
+    "series": "Bianchi",
+    "link": "\\Серия\\ArtMax\\BIANCHI\\MR960\\BIANCHI-60_MR960.b3d"
+  },
+  {
+    "article": "AM-Bianchi-800-2C-SO-MR960",
+    "series": "Bianchi",
+    "link": "\\Серия\\ArtMax\\BIANCHI\\MR960\\BIANCHI-80_MR960.b3d"
+  },
+  {
+    "article": "AM-Bianchi-900-2C-SO-MR960",
+    "series": "Bianchi",
+    "link": "\\Серия\\ArtMax\\BIANCHI\\MR960\\BIANCHI-90_MR960.b3d"
+  },
+  {
+    "article": "AM-Bianchi-1000-2C-SO-MR960",
+    "series": "Bianchi",
+    "link": "\\Серия\\ArtMax\\BIANCHI\\MR960\\BIANCHI-100_MR960.b3d"
+  },
+  {
+    "article": "AM-Imola-600-2C-SO-MR960",
+    "series": "Imola",
+    "link": "\\Серия\\ArtMax\\imola\\MR960\\Imola-60_MR960.b3d"
+  },
+  {
+    "article": "AM-Imola-800-2C-SO-MR960",
+    "series": "Imola",
+    "link": "\\Серия\\ArtMax\\imola\\MR960\\Imola-80_MR960.b3d"
+  },
+  {
+    "article": "AM-Imola-900-2C-SO-MR960",
+    "series": "Imola",
+    "link": "\\Серия\\ArtMax\\imola\\MR960\\Imola-90_MR960.b3d"
+  },
+  {
+    "article": "AM-Imola-1000-2C-SO-MR960",
+    "series": "Imola",
+    "link": "\\Серия\\ArtMax\\imola\\MR960\\Imola-100_MR960.b3d"
+  },
+  {
+    "article": "AM-Bianchi-800-2C-SO-LW623",
+    "series": "Bianchi",
+    "link": "\\Серия\\ArtMax\\BIANCHI\\LW623\\BIANCHI-80_LW623.b3d"
+  },
+  {
+    "article": "AM-Bianchi-800-2C-SO-LW635",
+    "series": "Bianchi",
+    "link": "\\Серия\\ArtMax\\BIANCHI\\LW635\\BIANCHI-80_LW635.b3d"
+  },
+  {
+    "article": "AM-Bianchi-800-2C-SO-ZB815",
+    "series": "Bianchi",
+    "link": "\\Серия\\ArtMax\\BIANCHI\\ZB815\\BIANCHI-80_ZB815.b3d"
+  },
+  {
+    "article": "AM-Bianchi-800-2C-SO-LW674",
+    "series": "Bianchi",
+    "link": "\\Серия\\ArtMax\\BIANCHI\\LW674\\BIANCHI-80_LW674.b3d"
+  },
+  {
+    "article": "AM-Bianchi-800-2C-SO-LS935",
+    "series": "Bianchi",
+    "link": "\\Серия\\ArtMax\\BIANCHI\\LS935\\BIANCHI-80_LS935.b3d"
+  },
+  {
+    "article": "AM-Bianchi-800-2C-SO-FC305",
+    "series": "Bianchi",
+    "link": "\\Серия\\ArtMax\\BIANCHI\\FC305\\BIANCHI-80_FC305.b3d"
+  },
+  {
+    "article": "AM-Bianchi-800-2C-SO-LW646",
+    "series": "Bianchi",
+    "link": "\\Серия\\ArtMax\\BIANCHI\\LW646\\BIANCHI-80_LW646.b3d"
+  },
+  {
+    "article": "AM-Imola-800-2C-SO-LW623",
+    "series": "Imola",
+    "link": "\\Серия\\ArtMax\\imola\\LW623\\Imola-80_LW623.b3d"
+  },
+  {
+    "article": "AM-Imola-800-2C-SO-LW635",
+    "series": "Imola",
+    "link": "\\Серия\\ArtMax\\imola\\LW635\\Imola-80_LW635.b3d"
+  },
+  {
+    "article": "AM-Imola-800-2C-SO-ZB815",
+    "series": "Imola",
+    "link": "\\Серия\\ArtMax\\imola\\ZB815\\Imola-80_ZB815.b3d"
+  },
+  {
+    "article": "AM-Imola-800-2C-SO-LW674",
+    "series": "Imola",
+    "link": "\\Серия\\ArtMax\\imola\\LW674\\Imola-80_LW674.b3d"
+  },
+  {
+    "article": "AM-Imola-800-2C-SO-LW646",
+    "series": "Imola",
+    "link": "\\Серия\\ArtMax\\imola\\LW646\\Imola-80_LW646.b3d"
+  },
+  {
+    "article": "AM-Imola-800-2C-SO-LS935",
+    "series": "Imola",
+    "link": "\\Серия\\ArtMax\\imola\\LS935\\Imola-80_LS935.b3d"
+  },
+  {
+    "article": "AM-Imola-800-2C-SO-FC305",
+    "series": "Imola",
+    "link": "\\Серия\\ArtMax\\imola\\FC305\\Imola-80_FC305.b3d"
+  },
+  {
+    "article": "AM-600/460-BO",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\BO-Bianco Opaco\\AM-60-46_BO.b3d"
+  },
+  {
+    "article": "AM-800/460-BO",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\BO-Bianco Opaco\\AM-80-46_BO.b3d"
+  },
+  {
+    "article": "AM-900/460-BO",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\BO-Bianco Opaco\\AM-90-46_BO.b3d"
+  },
+  {
+    "article": "AM-1000/460-BO",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\BO-Bianco Opaco\\AM-100-46_BO.b3d"
+  },
+  {
+    "article": "AM-600/460-WO",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\WO-Wenge Opaco\\AM-60-46_WO.b3d"
+  },
+  {
+    "article": "AM-800/460-WO",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\WO-Wenge Opaco\\AM-80-46_WO.b3d"
+  },
+  {
+    "article": "AM-900/460-WO",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\WO-Wenge Opaco\\AM-90-46_WO.b3d"
+  },
+  {
+    "article": "AM-1000/460-WO",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\WO-Wenge Opaco\\AM-100-46_WO.b3d"
+  },
+  {
+    "article": "AM-600/460-FN",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\FN-Faggio Naturale\\AM-60-46_FN.b3d"
+  },
+  {
+    "article": "AM-600/460-GO",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\GO-Grafite Opaco\\AM-60-46_GO.b3d"
+  },
+  {
+    "article": "AM-800/460-FN",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\FN-Faggio Naturale\\AM-80-46_FN.b3d"
+  },
+  {
+    "article": "AM-800/460-GO",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\GO-Grafite Opaco\\AM-80-46_GO.b3d"
+  },
+  {
+    "article": "AM-900/460-FN",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\FN-Faggio Naturale\\AM-90-46_FN.b3d"
+  },
+  {
+    "article": "AM-900/460-GO",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\GO-Grafite Opaco\\AM-90-46_GO.b3d"
+  },
+  {
+    "article": "AM-1000/460-FN",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\FN-Faggio Naturale\\AM-100-46_FN.b3d"
+  },
+  {
+    "article": "AM-1000/460-GO",
+    "series": "AM-ST-MDF",
+    "link": "\\Серия\\ArtMax\\Table top\\AM\\GO-Grafite Opaco\\AM-100-46_GO.b3d"
+  }
+]
