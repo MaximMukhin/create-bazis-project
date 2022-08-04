@@ -40,6 +40,7 @@ const getOrderName = () => {
 const readFile = (input) => {
   articles = [];
   articlesObj = [];
+  articlesNotFound = [];
 
   let file = input.files[0];
 
@@ -76,18 +77,14 @@ const articlesPars = (arr) => {
   const arrPars = [];
 
   //разбиваю строки на масивы артикул + количество
-  for (let i = 0; i < arr.length; i++) {
-    arrPars.push(articles[i].split("\t"));
-  }
+  arr.forEach((el) => {
+    arrPars.push(el.split("\t"));
+  });
 
-//  arr.forEach((el) => {
-//    arrPars.push(el.split("\t"));
-//  });
+  arrPars.forEach((el) => {
+    articlesObj.push({ article: el[0], qty: el[1] });
+  });
 
-  for (let j = 0; j < arrPars.length; j++) {
-    //    result.push({ article: arrPars[j][0], qty: arrPars[j][1] })
-    articlesObj.push({ article: arrPars[j][0], qty: arrPars[j][1] });
-  }
   //return result //=
 };
 
@@ -109,7 +106,6 @@ const objectToWork = () => {
     }
   }
 };
-//objectToWork();
 
 const file = () => {
   let result = "";
@@ -178,6 +174,7 @@ const outList3 = () => {
   document.getElementById("articlesf-not-found").innerHTML = out3;
 };
 
+// Скачка файла
 const download = () => {
   getOrderName();
   let str = file();
@@ -200,9 +197,3 @@ const inputFile = document.getElementById("input-file");
 inputFile.addEventListener("change", () => {
   readFile(inputFile);
 });
-
-// outList();
-// outList2();
-// console.log('toWork', toWork)
-// articlesPars(articles);
-// objectToWork()
