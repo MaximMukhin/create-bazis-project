@@ -175,7 +175,7 @@ const outList3 = () => {
 };
 
 // Скачка файла
-const download = () => {
+const downloadBazisProject = () => {
   getOrderName();
   let str = file();
   console.log(str);
@@ -189,8 +189,10 @@ const download = () => {
   console.log("download");
 };
 
-// функция Скачки
-document.querySelector(".btn-download").addEventListener("click", download);
+// функция запуск скачки файла проекта Базис
+document
+  .querySelector(".btn-download")
+  .addEventListener("click", downloadBazisProject);
 
 // запуск чтения файла
 const inputFile = document.getElementById("input-file");
