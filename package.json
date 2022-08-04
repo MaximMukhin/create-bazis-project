@@ -17,12 +17,5 @@
   "bugs": {
     "url": "https://github.com/MaximMukhin/create-bazis-project/issues"
   },
-  "homepage": "https://github.com/MaximMukhin/create-bazis-project#readme",
-  "dependencies": {
-    "express": "^4.18.1",
-    "fs": "^0.0.1-security"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.19"
-  }
+  "homepage": "https://github.com/MaximMukhin/create-bazis-project#readme"
 }

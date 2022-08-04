@@ -6,11 +6,11 @@ console.log('productsAll', productsAll)
 // база артикулов
 const products = productsAll
 
-let articles = []; // заказ клиента
-let articlesObj = []; // заказ клиента
+let articles = []; // заказ клиента arr
+let articlesObj = []; // заказ клиента obj
 
 const toWork = []; // массив артикулов в работу
-const articlesNotFound = []; // ненайденые артикулы в базе
+let articlesNotFound = []; // ненайденые артикулы в базе
 
 let order = ''
 
@@ -19,11 +19,11 @@ const getOrderName = () => {
   console.log(order)
 };
 
-
 // функция загрузки файла
 const readFile = (input) => {
   articles = [];
   articlesObj = [];
+  articlesNotFound = [];
 
   let file = input.files[0];
 
@@ -38,7 +38,7 @@ const readFile = (input) => {
 
     //добавляю в колекцию массив
     for (let i = 0; i < strSlice.length; i++) {
-      articles.push(strSlice[i]);
+      articles.push(strSlice[i].trim());
     }
     document.getElementById("text-file").innerHTML = res;
 
@@ -53,6 +53,12 @@ const readFile = (input) => {
     console.log('articlesNotFound', articlesNotFound)
   };
 }
+
+// запуск чтения файла
+const inputFile = document.getElementById('input-file')
+inputFile.addEventListener('change', () => {
+  readFile(inputFile)
+})
 
 // разбиваем заказ клиента на обьекты
 const articlesPars = (arr) => {
@@ -170,12 +176,6 @@ function download() {
   URL.revokeObjectURL(link.href);
   console.log('download')
 }
-
-// запуск чтения файла
-const inputFile = document.getElementById('input-file')
-inputFile.addEventListener('change', () => {
-  readFile(inputFile)
-})
 
 // outList();
 // outList2();
