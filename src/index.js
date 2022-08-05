@@ -1,7 +1,7 @@
 //import { artMax, acquaCraft, iberis } from "./products.js";
 //const productsAll = [...artMax, ...acquaCraft, ...iberis];
 
-let productsAll = [];
+// let productsAll = [];
 
 /* Promise.all([
   fetch('http://127.0.0.1:5500/products/acqua-craft.json'),
@@ -16,7 +16,6 @@ let productsAll = [];
   Promise.all(resArr).then((data) => console.log('data',data))
 })
 
-console.log('end')
 console.log('productsAll', productsAll) */
 
 // fetch("http://127.0.0.1:5500/products/acqua-craft.json")
@@ -27,39 +26,54 @@ console.log('productsAll', productsAll) */
 //     data;
 //   });
 
-let arr = [];
 
-// async function getUsers() {
+// async function getProducts() {
 //   try {
 //     let response = await fetch(
 //       "http://127.0.0.1:5500/products/acqua-craft.json"
 //     );
-//     let users = await response.json();
-//     console.log(users);
-//     return users;
+//     let products = await response.json();
+//     console.log(products);
+//     return products;
 //   } catch (error) {
 //     alert(error);
 //   }
 // }
 //
-// const gets = getUsers();
+// const gets = getProducts();
 // console.log(gets);
 
 const getProducts = (url) => {
   let result = [];
+
   fetch(url)
     .then((response) => {
       return response.json();
     })
     .then((data) => {
-      console.log(data);
-      result.push([...data]);
+      console.log('data', data);
+      result.push(...data);
     });
   return result;
 };
 
-const prod = getProducts("http://127.0.0.1:5500/products/acqua-craft.json");
-console.log(prod);
+const acquaCraft = getProducts("http://127.0.0.1:5500/products/acqua-craft.json");
+const artMax = getProducts("http://127.0.0.1:5500/products/atr-max.json");
+const iberis = getProducts("http://127.0.0.1:5500/products/iberis.json");
+
+const productsAll = [...artMax, ...acquaCraft, ...iberis];
+
+
+
+setTimeout(() => {
+  console.log('acquaCraft', acquaCraft);
+  console.log('artMax', artMax);
+  console.log('iberis', iberis);
+
+  console.log('productsAll', productsAll)
+}, 1000)
+
+
 // база артикулов
 const products = productsAll;
 
@@ -73,7 +87,6 @@ let order = "";
 
 const getOrderName = () => {
   order = document.getElementById("input-order").value;
-  console.log(order);
 };
 
 // функция загрузки файла
