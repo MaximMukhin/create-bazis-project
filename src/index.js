@@ -1,8 +1,7 @@
-import { artMax, acquaCraft, iberis } from "./products.js";
-console.log("start");
-const productsAll = [...artMax, ...acquaCraft, ...iberis];
+//import { artMax, acquaCraft, iberis } from "./products.js";
+//const productsAll = [...artMax, ...acquaCraft, ...iberis];
 
-//let productsAll = [];
+let productsAll = [];
 
 /* Promise.all([
   fetch('http://127.0.0.1:5500/products/acqua-craft.json'),
@@ -20,8 +19,47 @@ const productsAll = [...artMax, ...acquaCraft, ...iberis];
 console.log('end')
 console.log('productsAll', productsAll) */
 
-console.log(fetch('http://127.0.0.1:5500/products/acqua-craft.json'))
+// fetch("http://127.0.0.1:5500/products/acqua-craft.json")
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((data) => {
+//     data;
+//   });
 
+let arr = [];
+
+// async function getUsers() {
+//   try {
+//     let response = await fetch(
+//       "http://127.0.0.1:5500/products/acqua-craft.json"
+//     );
+//     let users = await response.json();
+//     console.log(users);
+//     return users;
+//   } catch (error) {
+//     alert(error);
+//   }
+// }
+//
+// const gets = getUsers();
+// console.log(gets);
+
+const getProducts = (url) => {
+  let result = [];
+  fetch(url)
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      console.log(data);
+      result.push([...data]);
+    });
+  return result;
+};
+
+const prod = getProducts("http://127.0.0.1:5500/products/acqua-craft.json");
+console.log(prod);
 // база артикулов
 const products = productsAll;
 
@@ -49,13 +87,12 @@ const readFile = (input) => {
   let reader = new FileReader();
   reader.readAsText(file);
   reader.onload = function () {
+    const res = reader.result; //читаю файл
+    const strSlice = res.split("\n"); //разбиваю на массив
 
-    const res = reader.result;     //читаю файл
-    const strSlice = res.split("\n");     //разбиваю на массив
-
-    strSlice.forEach((el) => { 
-      articles.push(el);     //добавляю в колекцию массив
-    })
+    strSlice.forEach((el) => {
+      articles.push(el); //добавляю в колекцию массив
+    });
 
     document.getElementById("text-file").innerHTML = res;
 
