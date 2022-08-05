@@ -20,7 +20,7 @@ const productsAll = [...artMax, ...acquaCraft, ...iberis];
 console.log('end')
 console.log('productsAll', productsAll) */
 
-//console.log(fetch('http://127.0.0.1:5500/products/acqua-craft.json')) 
+console.log(fetch('http://127.0.0.1:5500/products/acqua-craft.json'))
 
 // база артикулов
 const products = productsAll;
@@ -49,16 +49,14 @@ const readFile = (input) => {
   let reader = new FileReader();
   reader.readAsText(file);
   reader.onload = function () {
-    //читаю файл
-    const res = reader.result;
-    //разбиваю на массив
-    const strSlice = res.split("\n");
-    //console.log('strSlice', strSlice)
 
-    //добавляю в колекцию массив
-    for (let i = 0; i < strSlice.length; i++) {
-      articles.push(strSlice[i]);
-    }
+    const res = reader.result;     //читаю файл
+    const strSlice = res.split("\n");     //разбиваю на массив
+
+    strSlice.forEach((el) => { 
+      articles.push(el);     //добавляю в колекцию массив
+    })
+
     document.getElementById("text-file").innerHTML = res;
 
     //разбиваю на обьект
@@ -111,22 +109,22 @@ const objectToWork = () => {
 
 const file = () => {
   let result = "";
-  console.log(toWork.length);
-  for (let i = 0; i < toWork.length; i += 1) {
+
+  toWork.forEach((el) => {
     const text = `
     <File>
       <Type>0</Type>
-      <Name>${toWork[i].link}</Name>
+      <Name>${el.link}</Name>
       <SubName/>
-      <Sign>${toWork[i].article}</Sign>
+      <Sign>${el.article}</Sign>
       <Note/>
       <Comment/>
-      <Count>${toWork[i].qty}</Count>
+      <Count>${el.qty}</Count>
     </File>
     `;
     if (result === "") result = text;
     else result += text;
-  }
+  });
 
   const xml = `
 <?xml version="1.0" encoding="UTF-8"?>
@@ -150,9 +148,11 @@ const file = () => {
 //отрисовка списка
 const outList = () => {
   let out = "";
-  for (const article in articles) {
-    out += `<div>${articles[article]}</div>`;
-  }
+
+  articles.forEach((el) => {
+    out += `<div>${el}</div>`;
+  });
+
   document.getElementById("text-file-array").innerHTML = out;
 };
 
@@ -160,19 +160,23 @@ const outList = () => {
 const outList2 = () => {
   let out2 = "";
   let count = 1;
-  for (const article of articlesObj) {
-    out2 += `<div>count:${count} art: ${article.article} - qty: ${article.qty}<div>`;
+
+  articlesObj.forEach((el) => {
+    out2 += `<div>count:${count} art: ${el.article} - qty: ${el.qty}<div>`;
     count += 1;
-  }
+  });
+
   document.getElementById("text-file-object").innerHTML = out2;
 };
 
 //отрисовка списка
 const outList3 = () => {
   let out3 = "";
-  for (const article of articlesNotFound) {
-    out3 += `<div class="not-found-alarm">${article}<div>`;
-  }
+
+  articlesNotFound.forEach((el) => {
+    out3 += `<div class="not-found-alarm">${el}<div>`;
+  });
+
   document.getElementById("articlesf-not-found").innerHTML = out3;
 };
 
