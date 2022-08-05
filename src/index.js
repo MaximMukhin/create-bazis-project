@@ -20,6 +20,8 @@ const productsAll = [...artMax, ...acquaCraft, ...iberis];
 console.log('end')
 console.log('productsAll', productsAll) */
 
+//console.log(fetch('http://127.0.0.1:5500/products/acqua-craft.json')) 
+
 // база артикулов
 const products = productsAll;
 
@@ -27,7 +29,7 @@ let articles = []; // заказ клиента
 let articlesObj = []; // заказ клиента
 
 const toWork = []; // массив артикулов в работу
-const articlesNotFound = []; // ненайденые артикулы в базе
+let articlesNotFound = []; // ненайденые артикулы в базе
 
 let order = "";
 
