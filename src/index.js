@@ -1,86 +1,13 @@
-//import { artMax, acquaCraft, iberis } from "./products.js";
-//const productsAll = [...artMax, ...acquaCraft, ...iberis];
-
-// let productsAll = [];
-
-/* Promise.all([
-  fetch('http://127.0.0.1:5500/products/acqua-craft.json'),
-
-  fetch('http://127.0.0.1:5500/products/acqua-craft.json'),
-
-  fetch('http://127.0.0.1:5500/products/acqua-craft.json'),
-
-  
-])
-.then((resArr) => {
-  Promise.all(resArr).then((data) => console.log('data',data))
-})
-
-console.log('productsAll', productsAll) */
-
-// fetch("http://127.0.0.1:5500/products/acqua-craft.json")
-//   .then((response) => {
-//     return response.json();
-//   })
-//   .then((data) => {
-//     data;
-//   });
-
-// async function getProducts() {
-//   try {
-//     let response = await fetch(
-//       "http://127.0.0.1:5500/products/acqua-craft.json"
-//     );
-//     let products = await response.json();
-//     console.log(products);
-//     return products;
-//   } catch (error) {
-//     alert(error);
-//   }
-// }
-//
-// const gets = getProducts();
-// console.log(gets);
-
-const getProducts = (url) => {
-  let result = [];
-
-  fetch(url)
-    .then((response) => {
-      return response.json();
-    })
-    .then((data) => {
-      //console.log("data", data);
-      result.push(...data);
-      console.log("получил данные");
-    });
-  return result;
-};
-
-const acquaCraft = getProducts(
-  "http://127.0.0.1:5500/products/acqua-craft.json"
-);
-const artMax = getProducts("http://127.0.0.1:5500/products/atr-max.json");
-const iberis = getProducts("http://127.0.0.1:5500/products/iberis.json");
-
+import { artMax, acquaCraft, iberis } from "./products.js";
 const productsAll = [...artMax, ...acquaCraft, ...iberis];
-console.log("присваиваю productsAll");
 
-// setTimeout(() => {
-//   console.log('acquaCraft', acquaCraft);
-//   console.log('artMax', artMax);
-//   console.log('iberis', iberis);
-// 
-//   console.log('productsAll', productsAll)
-// }, 1000)
-
-// база артикулов
+//база артикулов
 const products = productsAll;
 
 let articles = []; // заказ клиента
 let articlesObj = []; // заказ клиента
 
-const toWork = []; // массив артикулов в работу
+let toWork = []; // массив артикулов в работу
 let articlesNotFound = []; // ненайденые артикулы в базе
 
 let order = "";
@@ -132,7 +59,7 @@ const articlesPars = (arr) => {
   });
 
   arrPars.forEach((el) => {
-    articlesObj.push({ article: el[0], qty: el[1] });
+    articlesObj.push({ article: el[0], qty: el[1].trim() });
   });
 
   //return result //=
@@ -140,6 +67,7 @@ const articlesPars = (arr) => {
 
 //делаю обьект с сылками на заказ
 const objectToWork = () => {
+  toWork = [];
   for (const key of articlesObj) {
     const result = products.find((el) => el.article === key.article);
     console.log("result", result);
