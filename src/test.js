@@ -1,3 +1,4 @@
+const productsList = document.querySelector(".product-list");
 const getProductsBtn = document.querySelector(".get-product-btn");
 
 const state = {
@@ -5,35 +6,38 @@ const state = {
 };
 
 const createProduct = (product, index) => {
-  `<div>${product.article}</div>`;
+  return `<div>${product.article}</div>`;
 };
 
 const fillProductsList = (products) => {
-  productList.innerHTML = "";
+  productsList.innerHTML = "";
 
   products.forEach((product, index) => {
-    productList.innerHTML += createProduct(product, index);
+    productsList.innerHTML += createProduct(product, index);
   });
 };
 
 getProductsBtn.addEventListener("click", async () => {
-  await getProductsRequest();
+  await getProductsRequest("http://127.0.0.1:5500/products/acqua-craft.json");
   fillProductsList(state.products);
 });
 
-function getProductsRequest() {
-  return fetch("http://127.0.0.1:5500/products/acqua-craft.json", {
-    method: "GET",
-    headers: {
-      "Content-type": "application/json; charset=UTF-8",
-    },
-  })
+async function getProductsRequest(url) {
+  return fetch(url)
     .then((response) => response.json())
     .then((products) => {
       console.log("products", products);
       state.products = state.products.concat(products);
     });
 }
+
+// getProductsRequest("http://127.0.0.1:5500/products/acqua-craft.json");
+// getProductsRequest("http://127.0.0.1:5500/products/atr-max.json");
+// getProductsRequest("http://127.0.0.1:5500/products/iberis.json");
+
+//const acquaCraft = fetch("http://127.0.0.1:5500/products/acqua-craft.json");
+//const atrMax = fetch("http://127.0.0.1:5500/products/atr-max.json");
+//const iberis = fetch("http://127.0.0.1:5500/products/iberis.json");
 
 // async function getProducts() {
 //   try {
