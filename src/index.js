@@ -26,7 +26,6 @@ console.log('productsAll', productsAll) */
 //     data;
 //   });
 
-
 // async function getProducts() {
 //   try {
 //     let response = await fetch(
@@ -51,28 +50,29 @@ const getProducts = (url) => {
       return response.json();
     })
     .then((data) => {
-      console.log('data', data);
+      //console.log("data", data);
       result.push(...data);
+      console.log("получил данные");
     });
   return result;
 };
 
-const acquaCraft = getProducts("http://127.0.0.1:5500/products/acqua-craft.json");
+const acquaCraft = getProducts(
+  "http://127.0.0.1:5500/products/acqua-craft.json"
+);
 const artMax = getProducts("http://127.0.0.1:5500/products/atr-max.json");
 const iberis = getProducts("http://127.0.0.1:5500/products/iberis.json");
 
 const productsAll = [...artMax, ...acquaCraft, ...iberis];
+console.log("присваиваю productsAll");
 
-
-
-setTimeout(() => {
-  console.log('acquaCraft', acquaCraft);
-  console.log('artMax', artMax);
-  console.log('iberis', iberis);
-
-  console.log('productsAll', productsAll)
-}, 1000)
-
+// setTimeout(() => {
+//   console.log('acquaCraft', acquaCraft);
+//   console.log('artMax', artMax);
+//   console.log('iberis', iberis);
+// 
+//   console.log('productsAll', productsAll)
+// }, 1000)
 
 // база артикулов
 const products = productsAll;
