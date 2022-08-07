@@ -1,4 +1,7 @@
 import { artMax, acquaCraft, iberis } from "../products/products.js";
+//import downloadProject from "./module/downloadProject.js";
+
+
 const productsAll = [...artMax, ...acquaCraft, ...iberis];
 
 //база артикулов
@@ -14,7 +17,7 @@ let order = "";
 
 const getOrderName = () => {
   order = document.getElementById("input-order").value;
-};
+}
 
 // функция загрузки файла
 const readFile = (input) => {
@@ -40,9 +43,9 @@ const readFile = (input) => {
     articlesPars(articles);
     objectToWork();
     console.log("toWork", toWork);
-    outList();
-    outList2();
-    outList3();
+    textParsArrayList();
+    textParsObjectList();
+    articlesNotFoundList();
     console.log("articlesObj", articlesObj);
     console.log("articlesNotFound", articlesNotFound);
   };
@@ -50,7 +53,6 @@ const readFile = (input) => {
 
 // разбиваем заказ клиента на обьекты
 const articlesPars = (arr) => {
-  //const result = []
   const arrPars = [];
 
   //разбиваю строки на масивы артикул + количество
@@ -61,8 +63,6 @@ const articlesPars = (arr) => {
   arrPars.forEach((el) => {
     articlesObj.push({ article: el[0], qty: el[1].trim() });
   });
-
-  //return result //=
 };
 
 //делаю обьект с сылками на заказ
@@ -123,19 +123,19 @@ const file = () => {
   return xml;
 };
 
-//отрисовка списка
-const outList = () => {
+//отрисовка списка из масива
+const textParsArrayList = (arr) => {
   let out = "";
 
   articles.forEach((el) => {
     out += `<div>${el}</div>`;
   });
 
-  document.getElementById("text-file-array").innerHTML = out;
+  document.getElementById("text-pars-array").innerHTML = out;
 };
 
-//отрисовка списка
-const outList2 = () => {
+//отрисовка списка из объекта
+const textParsObjectList = (obj) => {
   let out2 = "";
   let count = 1;
 
@@ -144,22 +144,22 @@ const outList2 = () => {
     count += 1;
   });
 
-  document.getElementById("text-file-object").innerHTML = out2;
+  document.getElementById("text-pars-object").innerHTML = out2;
 };
 
-//отрисовка списка
-const outList3 = () => {
+//отрисовка списка ненайденных артикулов в базе
+const articlesNotFoundList = (arr) => {
   let out3 = "";
 
   articlesNotFound.forEach((el) => {
     out3 += `<div class="not-found-alarm">${el}<div>`;
   });
 
-  document.getElementById("articlesf-not-found").innerHTML = out3;
+  document.getElementById("articles-not-found").innerHTML = out3;
 };
 
 // Скачка файла
-const download = () => {
+const downloadProject = () => {
   getOrderName();
   let str = file();
   console.log(str);
@@ -170,11 +170,13 @@ const download = () => {
   link.href = URL.createObjectURL(blob);
   link.click();
   URL.revokeObjectURL(link.href);
-  console.log("download");
+  console.log("downloadProject");
 };
 
 // функция Скачки
-document.querySelector(".btn-download").addEventListener("click", download);
+document
+  .querySelector(".btn-download")
+  .addEventListener("click", downloadProject);
 
 // запуск чтения файла
 const inputFile = document.getElementById("input-file");
