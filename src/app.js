@@ -1,5 +1,7 @@
 import { artMax, acquaCraft, iberis } from "../products/products.js";
+import textParsArrayList from "./module/textParsArrayList.js";
 //import downloadProject from "./module/downloadProject.js";
+
 
 
 const productsAll = [...artMax, ...acquaCraft, ...iberis];
@@ -43,7 +45,7 @@ const readFile = (input) => {
     articlesPars(articles);
     objectToWork();
     console.log("toWork", toWork);
-    textParsArrayList();
+    textParsArrayList(articles);
     textParsObjectList();
     articlesNotFoundList();
     console.log("articlesObj", articlesObj);
@@ -124,15 +126,15 @@ const file = () => {
 };
 
 //отрисовка списка из масива
-const textParsArrayList = (arr) => {
-  let out = "";
+// const textParsArrayList = (arr) => {
+//   let out = "";
 
-  articles.forEach((el) => {
-    out += `<div>${el}</div>`;
-  });
+//   articles.forEach((el) => {
+//     out += `<div>${el}</div>`;
+//   });
 
-  document.getElementById("text-pars-array").innerHTML = out;
-};
+//   document.getElementById("text-pars-array").innerHTML = out;
+// };
 
 //отрисовка списка из объекта
 const textParsObjectList = (obj) => {
