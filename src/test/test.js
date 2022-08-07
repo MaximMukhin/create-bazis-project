@@ -19,6 +19,8 @@ const fillProductsList = (products) => {
 
 getProductsBtn.addEventListener("click", async () => {
   await getProductsRequest("http://127.0.0.1:5500/products/acqua-craft.json");
+  await getProductsRequest("http://127.0.0.1:5500/products/atr-max.json");
+  await getProductsRequest("http://127.0.0.1:5500/products/iberis.json");
   fillProductsList(state.products);
 });
 
