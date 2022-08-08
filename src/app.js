@@ -30,12 +30,10 @@ inputFile.addEventListener("change", () => {
       const productObj = articlesPars(productsArr)
       textParsObjectList(productObj)
       const productWork = productToWork(productObj, products)
-      console.log('productWork', productWork)
       articlesNotFoundList(productWork)
       str = fileForBprj(productWork);
       order = getOrderName();
       toWork.push(productWork)
-//     downloadProject(order, str, productWork)
     })
 });
 
