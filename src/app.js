@@ -13,36 +13,34 @@ import getOrderName from "./module/getOrderName.js";
 const products = [...artMax, ...acquaCraft, ...iberis];
 console.log("products", products);
 
-let order = '';
-let str = '';
+let order = "";
+let str = "";
 let toWork = [];
 
 // запуск чтения файла
 const inputFile = document.getElementById("input-file");
 inputFile.addEventListener("change", () => {
   const productsArr = readFile(inputFile);
-  productsArr
-    .then((productsArr) => {
-      order = '';
-      str = '';
-      toWork = [];
-      textParsArrayList(productsArr)
-      const productObj = articlesPars(productsArr)
-      textParsObjectList(productObj)
-      const productWork = productToWork(productObj, products)
-      articlesNotFoundList(productWork)
-      str = fileForBprj(productWork);
-      order = getOrderName();
-      toWork.push(productWork)
-    })
+  productsArr.then((productsArr) => {
+    order = "";
+    str = "";
+    toWork = [];
+    textParsArrayList(productsArr);
+    const productObj = articlesPars(productsArr);
+    textParsObjectList(productObj);
+    const productWork = productToWork(productObj, products);
+    articlesNotFoundList(productWork);
+    str = fileForBprj(productWork);
+    order = getOrderName();
+    toWork.push(productWork);
+  });
 });
 
 const downloadProjectFile = () => {
-  downloadProject(order, str, toWork.flat())
+  downloadProject(order, str, toWork.flat());
 };
 
 // функция Скачки
 document
   .querySelector(".btn-download")
   .addEventListener("click", downloadProjectFile);
-
