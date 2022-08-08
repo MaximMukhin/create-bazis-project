@@ -1,8 +1,9 @@
 //отрисовка списка ненайденных артикулов в базе
 const articlesNotFoundList = (obj) => {
   let renderList = "";
+  const articlesNotFound = obj[1]
 
-  obj.forEach((el) => {
+  articlesNotFound.forEach((el) => {
     renderList += `<div class="not-found-alarm">${el}<div>`;
   });
 
