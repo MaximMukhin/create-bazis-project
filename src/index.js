@@ -34,6 +34,7 @@ const readFile = (input) => {
       articles.push(el); //добавляю в колекцию массив
     });
 
+    console.log("articles", articles);
     document.getElementById("text-file").innerHTML = res;
 
     //разбиваю на обьект

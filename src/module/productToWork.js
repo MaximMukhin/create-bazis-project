@@ -1,5 +1,5 @@
 //делаю обьект с сылками на заказ
-const objectToWork = (articlesObj, products) => {
+const productToWork = (articlesObj, products) => {
   let toWork = [];
   let articlesNotFound = [];
   for (const key of articlesObj) {
@@ -19,4 +19,4 @@ const objectToWork = (articlesObj, products) => {
   }
   return toWork;
 };
-export default objectToWork;
+export default productToWork;
