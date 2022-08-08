@@ -10,6 +10,8 @@ const downloadProject = (order, str, error) => {
     link.click();
     URL.revokeObjectURL(link.href);
   } else {
+    let errorAlarm = `<div class="error-alarm">Внимание есть ошибки!!!</div>`
+    document.getElementById("error-alarm").innerHTML = errorAlarm;
     console.log('Есть ошибки!')
   }
 }
