@@ -1,7 +1,8 @@
-const file = (toWork) => {
+const fileForBprj = (toWork) => {
   let result = "";
+  const article = toWork[0]
 
-  toWork.forEach((el) => {
+  article.forEach((el) => {
     const text = `
     <File>
       <Type>0</Type>
@@ -36,4 +37,4 @@ const file = (toWork) => {
   return xml;
 };
 
-export default file;
+export default fileForBprj;

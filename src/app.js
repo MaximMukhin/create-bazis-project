@@ -6,6 +6,7 @@ import articlesNotFoundList from "./module/articlesNotFoundList.js";
 import downloadProject from "./module/downloadProject.js";
 import productToWork from "./module/productToWork.js";
 import readFile from "./module/readFile.js";
+import fileForBprj from "./module/fileForBprj.js";
 
 //база артикулов
 const products = [...artMax, ...acquaCraft, ...iberis];
@@ -30,6 +31,12 @@ inputFile.addEventListener("change", () => {
       textParsObjectList(productObj)
       const productWork = productToWork(productObj, products)
       articlesNotFoundList(productWork)
+      const str = fileForBprj(productWork);
+      const order = getOrderName();
+
+      downloadProject(order, str, productWork)
+
+
       console.log('productWork', productWork)
     })
 });
