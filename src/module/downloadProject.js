@@ -1,8 +1,9 @@
 import getOrderName from "./getOrderName.js";
+import file from "./file.js";
 
 // Скачка файла
 const downloadProject = () => {
-  getOrderName();
+  const order = getOrderName();
   let str = file();
   console.log(str);
 
@@ -12,7 +13,7 @@ const downloadProject = () => {
   link.href = URL.createObjectURL(blob);
   link.click();
   URL.revokeObjectURL(link.href);
-  console.log("download");
+  console.log("downloadProject");
 };
 
 export default downloadProject;

@@ -1,3 +1,4 @@
+//отрисовка списка из масива
 const textParsArrayList = (arr) => {
   let renderList = "";
 
