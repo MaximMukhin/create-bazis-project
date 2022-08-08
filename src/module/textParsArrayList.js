@@ -1,11 +1,11 @@
 const textParsArrayList = (arr) => {
-  let out = "";
+  let renderList = "";
 
   arr.forEach((el) => {
-    out += `<div>${el}</div>`;
+    renderList += `<div>${el}</div>`;
   });
 
-  document.getElementById("text-pars-array").innerHTML = out;
+  document.getElementById("text-pars-array").innerHTML = renderList;
 };
 
 export default textParsArrayList;
