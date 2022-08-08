@@ -1,7 +1,7 @@
-const file = (arr) => {
+const file = (toWork) => {
   let result = "";
 
-  arr.forEach((el) => {
+  toWork.forEach((el) => {
     const text = `
     <File>
       <Type>0</Type>
