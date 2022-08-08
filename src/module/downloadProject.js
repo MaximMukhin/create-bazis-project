@@ -1,6 +1,6 @@
 // Скачка файла
 const downloadProject = (order, str, error) => {
-  console.log(error[1].length)
+
   if (error[1].length === 0) {
 
     let link = document.createElement("a");
@@ -9,7 +9,6 @@ const downloadProject = (order, str, error) => {
     link.href = URL.createObjectURL(blob);
     link.click();
     URL.revokeObjectURL(link.href);
-    console.log("downloadProject");
   } else {
     console.log('Есть ошибки!')
   }
