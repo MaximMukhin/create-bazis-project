@@ -1,5 +1,7 @@
 import { artMax, acquaCraft, iberis } from "../products/products.js";
+import articlesNotFoundList from "./module/articlesNotFoundList.js";
 import textParsArrayList from "./module/textParsArrayList.js";
+import textParsObjectList from "./module/textParsObjectList.js";
 //import downloadProject from "./module/downloadProject.js";
 
 
@@ -46,8 +48,8 @@ const readFile = (input) => {
     objectToWork();
     console.log("toWork", toWork);
     textParsArrayList(articles);
-    textParsObjectList();
-    articlesNotFoundList();
+    textParsObjectList(articlesObj);
+    articlesNotFoundList(articlesNotFound);
     console.log("articlesObj", articlesObj);
     console.log("articlesNotFound", articlesNotFound);
   };
@@ -127,38 +129,38 @@ const file = () => {
 
 //отрисовка списка из масива
 // const textParsArrayList = (arr) => {
-//   let out = "";
+//   let renderList = "";
 
 //   articles.forEach((el) => {
-//     out += `<div>${el}</div>`;
+//     renderList += `<div>${el}</div>`;
 //   });
 
-//   document.getElementById("text-pars-array").innerHTML = out;
+//   document.getElementById("text-pars-array").innerHTML = renderList;
 // };
 
-//отрисовка списка из объекта
-const textParsObjectList = (obj) => {
-  let out2 = "";
-  let count = 1;
+// //отрисовка списка из объекта
+// const textParsObjectList = (obj) => {
+//   let renderList = "";
+//   let count = 1;
 
-  articlesObj.forEach((el) => {
-    out2 += `<div>count:${count} art: ${el.article} - qty: ${el.qty}<div>`;
-    count += 1;
-  });
+//   articlesObj.forEach((el) => {
+//     renderList += `<div>count:${count} art: ${el.article} - qty: ${el.qty}<div>`;
+//     count += 1;
+//   });
 
-  document.getElementById("text-pars-object").innerHTML = out2;
-};
+//   document.getElementById("text-pars-object").innerHTML = renderList;
+// };
 
-//отрисовка списка ненайденных артикулов в базе
-const articlesNotFoundList = (arr) => {
-  let out3 = "";
+// //отрисовка списка ненайденных артикулов в базе
+// const articlesNotFoundList = (arr) => {
+//   let renderList = "";
 
-  articlesNotFound.forEach((el) => {
-    out3 += `<div class="not-found-alarm">${el}<div>`;
-  });
+//   articlesNotFound.forEach((el) => {
+//     renderList += `<div class="not-found-alarm">${el}<div>`;
+//   });
 
-  document.getElementById("articles-not-found").innerHTML = out3;
-};
+//   document.getElementById("articles-not-found").innerHTML = renderList;
+// };
 
 // Скачка файла
 const downloadProject = () => {
