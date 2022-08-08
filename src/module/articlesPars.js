@@ -11,7 +11,6 @@ const articlesPars = (arr) => {
   arrPars.forEach((el) => {
     result.push({ article: el[0], qty: el[1].trim() });
   });
-console.log('articlesPars result', result)
   return result;
 };
 
