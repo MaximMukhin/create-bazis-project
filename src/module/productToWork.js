@@ -4,7 +4,6 @@ const productToWork = (articlesObj, products) => {
   let articlesNotFound = [];
   for (const key of articlesObj) {
     const result = products.find((el) => el.article === key.article);
-    console.log("result", result);
     if (key.article === result?.article) {
       toWork.push({
         article: key.article,
@@ -17,6 +16,7 @@ const productToWork = (articlesObj, products) => {
       console.log("Артикул не найден:", key.article);
     }
   }
-  return toWork;
+
+  return [toWork, articlesNotFound];
 };
 export default productToWork;
