@@ -10,9 +10,24 @@ import fileForBprj from "./module/fileForBprj.js";
 import getOrderName from "./module/getOrderName.js";
 import getProduct from "./module/getProducts.js";
 
-getProduct("http://127.0.0.1:5500/products/acqua-craft.json");
-getProduct("http://127.0.0.1:5500/products/atr-max.json");
-getProduct("http://127.0.0.1:5500/products/iberis.json");
+//let products2 = [];
+
+const loadProduct = async () => {
+  const acquaCraft = await getProduct(
+    "http://127.0.0.1:5500/products/acqua-craft.json"
+  );
+  const atrMax = await getProduct(
+    "http://127.0.0.1:5500/products/atr-max.json"
+  );
+  const iberis = await getProduct("http://127.0.0.1:5500/products/iberis.json");
+  const allLoad = [...acquaCraft, ...atrMax, ...iberis];
+    return allLoad
+};
+loadProduct();
+
+console.log(loadProduct())
+
+
 
 //база артикулов
 const products = [...artMax, ...acquaCraft, ...iberis];
