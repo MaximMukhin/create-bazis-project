@@ -5,20 +5,20 @@
 //};
 //getProduct();
 
-const getProduct = async (url) => {
+const getProducts = async (url) => {
   const response = await fetch(url);
   const data = await response.json();
-  console.log("getProduct", data);
+  console.log("getProducts", data);
   return data;
 };
 
-getProduct("https://jsonplaceholder.typicode.com/todos/1").then(
+getProducts("https://jsonplaceholder.typicode.com/todos/1").then(
   (dataPromise) => {
     console.log("dataPromise", dataPromise);
   }
 );
 
-getProduct("https://jsonplaceholder.typicode.com/todos/2").then(
+getProducts("https://jsonplaceholder.typicode.com/todos/2").then(
   (dataPromise) => {
     console.log("dataPromise", dataPromise);
   }
