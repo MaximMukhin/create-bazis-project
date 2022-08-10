@@ -8,6 +8,11 @@ import productToWork from "./module/productToWork.js";
 import readFile from "./module/readFile.js";
 import fileForBprj from "./module/fileForBprj.js";
 import getOrderName from "./module/getOrderName.js";
+import getProduct from "./module/getProducts.js";
+
+getProduct("http://127.0.0.1:5500/products/acqua-craft.json");
+getProduct("http://127.0.0.1:5500/products/atr-max.json");
+getProduct("http://127.0.0.1:5500/products/iberis.json");
 
 //база артикулов
 const products = [...artMax, ...acquaCraft, ...iberis];
