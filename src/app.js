@@ -27,8 +27,6 @@ loadProduct();
 
 console.log(loadProduct())
 
-
-
 //база артикулов
 const products = [...artMax, ...acquaCraft, ...iberis];
 console.log("products", products);
