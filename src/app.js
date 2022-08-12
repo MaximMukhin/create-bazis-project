@@ -10,7 +10,7 @@ import fileForBprj from "./module/fileForBprj.js";
 import getOrderName from "./module/getOrderName.js";
 import getProduct from "./module/getProducts.js";
 
-//let products2 = [];
+//let products2 = [];//
 
 const loadProduct = async () => {
   const acquaCraft = await getProduct(
