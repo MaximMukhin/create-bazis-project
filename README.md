@@ -1,1 +1,1 @@
-# create-bazis-project
+# js-create-bazis-project
