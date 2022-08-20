@@ -1,6 +1,6 @@
 import { artMax, acquaCraft, iberis } from "../products/products.js";
 const productsAll = [...artMax, ...acquaCraft, ...iberis];
-
+ 
 //база артикулов
 const products = productsAll;
 
