@@ -400,27 +400,27 @@ const acquaCraft = [
     {
         "article": "BELLA-P-S01-60-2B-SF027",
         "series": "BELLA-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S01-60-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S01-60_SF027.b3d"
     },
     {
         "article": "BELLA-P-S01-70-2B-SF027",
         "series": "BELLA-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S01-70-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S01-70_SF027.b3d"
     },
     {
         "article": "BELLA-P-S01-80-2B-SF027",
         "series": "BELLA-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S01-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S01-80_SF027.b3d"
     },
     {
         "article": "BELLA-P-S01-90-2B-SF027",
         "series": "BELLA-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S01-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S01-90_SF027.b3d"
     },
     {
         "article": "BELLA-P-S01-100-2B-SF027",
         "series": "BELLA-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S01-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S01-100_SF027.b3d"
     },
     {
         "article": "NATALI-P-S01-60-2B-BL",
@@ -430,572 +430,572 @@ const acquaCraft = [
     {
         "article": "NATALI-P-S01-70-2B-SF027",
         "series": "NATALI-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S01-70-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S01-70_SF027.b3d"
     },
     {
         "article": "NATALI-P-S01-80-2B-SF027",
         "series": "NATALI-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S01-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S01-80_SF027.b3d"
     },
     {
         "article": "NATALI-P-S01-90-2B-SF027",
         "series": "NATALI-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S01-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S01-90_SF027.b3d"
     },
     {
         "article": "NATALI-P-S01-100-2B-SF027",
         "series": "NATALI-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S01-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S01-100_SF027.b3d"
     },
     {
         "article": "SOFIA-P-S01-60-2B-SF027",
         "series": "SOFIA-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S01-60-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S01-60_SF027.b3d"
     },
     {
         "article": "SOFIA-P-S01-70-2B-SF027",
         "series": "SOFIA-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S01-70-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S01-70_SF027.b3d"
     },
     {
         "article": "SOFIA-P-S01-80-2B-SF027",
         "series": "SOFIA-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S01-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S01-80_SF027.b3d"
     },
     {
         "article": "SOFIA-P-S01-90-2B-SF027",
         "series": "SOFIA-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S01-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S01-90_SF027.b3d"
     },
     {
         "article": "SOFIA-P-S01-100-2B-SF027",
         "series": "SOFIA-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S01-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S01-100_SF027.b3d"
     },
     {
         "article": "BELLA-S-S20-60-2B-SF027",
         "series": "BELLA-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S20-60-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S20-60_SF027.b3d"
     },
     {
         "article": "BELLA-S-S20-70-2B-SF027",
         "series": "BELLA-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S20-70-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S20-70_SF027.b3d"
     },
     {
         "article": "BELLA-S-S20-80-2B-SF027",
         "series": "BELLA-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S20-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S20-80_SF027.b3d"
     },
     {
         "article": "BELLA-S-S20-90-2B-SF027",
         "series": "BELLA-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S20-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S20-90_SF027.b3d"
     },
     {
         "article": "BELLA-S-S20-100-2B-SF027",
         "series": "BELLA-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S20-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-S20-100_SF027.b3d"
     },
     {
         "article": "NATALI-S-S20-60-2B-SF027",
         "series": "NATALI-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S20-60-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S20-60_SF027.b3d"
     },
     {
         "article": "NATALI-S-S20-70-2B-SF027",
         "series": "NATALI-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S20-70-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S20-70_SF027.b3d"
     },
     {
         "article": "NATALI-S-S20-80-2B-SF027",
         "series": "NATALI-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S20-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S20-80_SF027.b3d"
     },
     {
         "article": "NATALI-S-S20-90-2B-SF027",
         "series": "NATALI-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S20-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S20-90_SF027.b3d"
     },
     {
         "article": "NATALI-S-S20-100-2B-SF027",
         "series": "NATALI-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S20-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S20-100_SF027.b3d"
     },
     {
         "article": "SOFIA-S-S20-60-2B-SF027",
         "series": "SOFIA-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S20-60-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S20-60_SF027.b3d"
     },
     {
         "article": "SOFIA-S-S20-70-2B-SF027",
         "series": "SOFIA-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S20-70-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S20-70_SF027.b3d"
     },
     {
         "article": "SOFIA-S-S20-80-2B-SF027",
         "series": "SOFIA-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S20-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S20-80_SF027.b3d"
     },
     {
         "article": "SOFIA-S-S20-90-2B-SF027",
         "series": "SOFIA-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S20-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S20-90_SF027.b3d"
     },
     {
         "article": "SOFIA-S-S20-100-2B-SF027",
         "series": "SOFIA-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S20-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-S20-100_SF027.b3d"
     },
     {
         "article": "BELLA-P-T02-60-2B-SF027",
         "series": "BELLA-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T02-60-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T02-60_SF027.b3d"
     },
     {
         "article": "BELLA-P-T02-70-2B-SF027",
         "series": "BELLA-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T02-70-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T02-70_SF027.b3d"
     },
     {
         "article": "BELLA-P-T02-80-2B-SF027",
         "series": "BELLA-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T02-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T02-80_SF027.b3d"
     },
     {
         "article": "BELLA-P-T02-90-2B-SF027",
         "series": "BELLA-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T02-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T02-90_SF027.b3d"
     },
     {
         "article": "BELLA-P-T02-100-2B-SF027",
         "series": "BELLA-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T02-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T02-100_SF027.b3d"
     },
     {
         "article": "NATALI-P-T02-60-2B-SF027",
         "series": "NATALI-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T02-60-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T02-60_SF027.b3d"
     },
     {
         "article": "NATALI-P-T02-70-2B-SF027",
         "series": "NATALI-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T02-70-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T02-70_SF027.b3d"
     },
     {
         "article": "NATALI-P-T02-80-2B-SF027",
         "series": "NATALI-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T02-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T02-80_SF027.b3d"
     },
     {
         "article": "NATALI-P-T02-90-2B-SF027",
         "series": "NATALI-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T02-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T02-90_SF027.b3d"
     },
     {
         "article": "NATALI-P-T02-100-2B-SF027",
         "series": "NATALI-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T02-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T02-100_SF027.b3d"
     },
     {
         "article": "SOFIA-P-T02-60-2B-SF027",
         "series": "SOFIA-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T02-60-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T02-60_SF027.b3d"
     },
     {
         "article": "SOFIA-P-T02-70-2B-SF027",
         "series": "SOFIA-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T02-70-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T02-70_SF027.b3d"
     },
     {
         "article": "SOFIA-P-T02-80-2B-SF027",
         "series": "SOFIA-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T02-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T02-80_SF027.b3d"
     },
     {
         "article": "SOFIA-P-T02-90-2B-SF027",
         "series": "SOFIA-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T02-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T02-90_SF027.b3d"
     },
     {
         "article": "SOFIA-P-T02-100-2B-SF027",
         "series": "SOFIA-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T02-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T02-100_SF027.b3d"
     },
     {
         "article": "BELLA-S-T20-60-2B-SF027",
         "series": "BELLA-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T20-60-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T20-60_SF027.b3d"
     },
     {
         "article": "BELLA-S-T20-70-2B-SF027",
         "series": "BELLA-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T20-70-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T20-70_SF027.b3d"
     },
     {
         "article": "BELLA-S-T20-80-2B-SF027",
         "series": "BELLA-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T20-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T20-80_SF027.b3d"
     },
     {
         "article": "BELLA-S-T20-90-2B-SF027",
         "series": "BELLA-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T20-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T20-90_SF027.b3d"
     },
     {
         "article": "BELLA-S-T20-100-2B-SF027",
         "series": "BELLA-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T20-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T20-100_SF027.b3d"
     },
     {
         "article": "NATALI-S-T20-60-2B-SF027",
         "series": "NATALI-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T20-60-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T20-60_SF027.b3d"
     },
     {
         "article": "NATALI-S-T20-80-2B-SF027",
         "series": "NATALI-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T20-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T20-80_SF027.b3d"
     },
     {
         "article": "NATALI-S-T20-90-2B-SF027",
         "series": "NATALI-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T20-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T20-90_SF027.b3d"
     },
     {
         "article": "NATALI-S-T20-100-2B-SF027",
         "series": "NATALI-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T20-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T20-100_SF027.b3d"
     },
     {
         "article": "NATALI-S-T20-70-2B-SF027",
         "series": "NATALI-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T20-70-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T20-70_SF027.b3d"
     },
     {
         "article": "SOFIA-S-T20-60-2B-SF027",
         "series": "SOFIA-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T20-60-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T20-60_SF027.b3d"
     },
     {
         "article": "SOFIA-S-T20-70-2B-SF027",
         "series": "SOFIA-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T20-70-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T20-70_SF027.b3d"
     },
     {
         "article": "SOFIA-S-T20-80-2B-SF027",
         "series": "SOFIA-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T20-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T20-80_SF027.b3d"
     },
     {
         "article": "SOFIA-S-T20-90-2B-SF027",
         "series": "SOFIA-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T20-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T20-90_SF027.b3d"
     },
     {
         "article": "SOFIA-S-T20-100-2B-SF027",
         "series": "SOFIA-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T20-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T20-100_SF027.b3d"
     },
     {
         "article": "BELLA-L-T01-80-2B-SF027-L",
         "series": "BELLA-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T01L-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T01L-80_SF027.b3d"
     },
     {
         "article": "BELLA-L-T01-80-2B-SF027-R",
         "series": "BELLA-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T01R-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T01R-80_SF027.b3d"
     },
     {
         "article": "BELLA-L-T01-90-2B-SF027-L",
         "series": "BELLA-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T01L-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T01L-90_SF027.b3d"
     },
     {
         "article": "BELLA-L-T01-90-2B-SF027-R",
         "series": "BELLA-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T01R-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-T01R-90_SF027.b3d"
     },
     {
         "article": "BELLA-L-T01-100-2B-SF027-DV-L",
         "series": "BELLA-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027-DV\\Bella-T01L-100-SF027-DV.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027-DV\\Bella-T01L-100_SF027_DV.b3d"
     },
     {
         "article": "BELLA-L-T01-100-2B-SF027-DV-R",
         "series": "BELLA-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027-DV\\Bella-T01R-100-SF027-DV.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027-DV\\Bella-T01R-100_SF027_DV.b3d"
     },
     {
         "article": "NATALI-L-T01-80-2B-SF027-L",
         "series": "NATALI-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T01L-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T01L-80_SF027.b3d"
     },
     {
         "article": "NATALI-L-T01-80-2B-SF027-R",
         "series": "NATALI-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T01R-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T01R-80_SF027.b3d"
     },
     {
         "article": "NATALI-L-T01-90-2B-SF027-L",
         "series": "NATALI-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T01L-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T01L-90_SF027.b3d"
     },
     {
         "article": "NATALI-L-T01-90-2B-SF027-R",
         "series": "NATALI-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T01R-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T01R-90_SF027.b3d"
     },
     {
         "article": "NATALI-L-T01-100-2B-SF027-L",
         "series": "NATALI-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T01L-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T01L-100_SF027.b3d"
     },
     {
         "article": "NATALI-L-T01-100-2B-SF027-R",
         "series": "NATALI-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T01R-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-T01R-100_SF027.b3d"
     },
     {
         "article": "SOFIA-L-T01-80-2B-SF027-L",
         "series": "SOFIA-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T01L-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T01L-80_SF027.b3d"
     },
     {
         "article": "SOFIA-L-T01-80-2B-SF027-R",
         "series": "SOFIA-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T01R-80-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T01R-80_SF027.b3d"
     },
     {
         "article": "SOFIA-L-T01-90-2B-SF027-L",
         "series": "SOFIA-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T01L-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T01L-90_SF027.b3d"
     },
     {
         "article": "SOFIA-L-T01-90-2B-SF027-R",
         "series": "SOFIA-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T01R-90-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T01R-90_SF027.b3d"
     },
     {
         "article": "SOFIA-L-T01-100-2B-SF027-L",
         "series": "SOFIA-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T01L-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T01L-100_SF027.b3d"
     },
     {
         "article": "SOFIA-L-T01-100-2B-SF027-R",
         "series": "SOFIA-L-T01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T01R-100-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-T01R-100_SF027.b3d"
     },
     {
         "article": "BELLA-S-K21-106-1D-SF027-L",
         "series": "BELLA-S-K21",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K21L-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K21L-106_SF027.b3d"
     },
     {
         "article": "BELLA-S-K21-106-1D-SF027-R",
         "series": "BELLA-S-K21",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K21R-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K21R-106_SF027.b3d"
     },
     {
         "article": "NATALI-S-K21-106-1D-SF027-L",
         "series": "NATALI-S-K21",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K21L-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K21L-106_SF027.b3d"
     },
     {
         "article": "NATALI-S-K21-106-1D-SF027-R",
         "series": "NATALI-S-K21",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K21R-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K21R-106_SF027.b3d"
     },
     {
         "article": "SOFIA-S-K21-106-1D-SF027-L",
         "series": "SOFIA-S-K21",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K21L-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K21L-106_SF027.b3d"
     },
     {
         "article": "SOFIA-S-K21-106-1D-SF027-R",
         "series": "SOFIA-S-K21",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K21R-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K21R-106_SF027.b3d"
     },
     {
         "article": "BELLA-P-K01-106-1D-SF027-L",
         "series": "BELLA-P-K01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K01L-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K01L-106_SF027.b3d"
     },
     {
         "article": "BELLA-P-K01-106-1D-SF027-R",
         "series": "BELLA-P-K01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K01R-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K01R-106_SF027.b3d"
     },
     {
         "article": "NATALI-P-K01-106-1D-SF027-L",
         "series": "NATALI-P-K01",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K01L-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K01L-106_SF027.b3d"
     },
     {
         "article": "NATALI-P-K01-106-1D-SF027-R",
         "series": "NATALI-P-K01",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K01R-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K01R-106_SF027.b3d"
     },
     {
         "article": "SOFIA-P-K01-106-1D-SF027-L",
         "series": "SOFIA-P-K01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K01L-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K01L-106_SF027.b3d"
     },
     {
         "article": "SOFIA-P-K01-106-1D-SF027-R",
         "series": "SOFIA-P-K01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K01R-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K01R-106_SF027.b3d"
     },
     {
         "article": "BELLA-S-K23-53-2B-SF027",
         "series": "BELLA-S-K23",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K23-53-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K23-53_SF027.b3d"
     },
     {
         "article": "NATALI-S-K23-53-2B-SF027",
         "series": "NATALI-S-K23",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K23-53-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K23-53_SF027.b3d"
     },
     {
         "article": "SOFIA-S-K23-53-2B-SF027",
         "series": "SOFIA-S-K23",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K23-53-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K23-53_SF027.b3d"
     },
     {
         "article": "BELLA-P-K03-53-2B-SF027",
         "series": "BELLA-P-K03",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K03-53-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K03-53_SF027.b3d"
     },
     {
         "article": "NATALI-P-K03-53-2B-SF027",
         "series": "NATALI-P-K03",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K03-53-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K03-53_SF027.b3d"
     },
     {
         "article": "SOFIA-P-K03-53-2B-SF027",
         "series": "SOFIA-P-K03",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K03-53-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K03-53_SF027.b3d"
     },
     {
         "article": "BELLA-S-K22-67-1M-SF027",
         "series": "BELLA-S-K22",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K22-67-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K22-67_SF027.b3d"
     },
     {
         "article": "NATALI-S-K22-67-1M-SF027",
         "series": "NATALI-S-K22",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K22-67-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K22-67_SF027.b3d"
     },
     {
         "article": "SOFIA-S-K22-67-1M-SF027",
         "series": "SOFIA-S-K22",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K22-67-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K22-67_SF027.b3d"
     },
     {
         "article": "BELLA-P-K02-67-1M-SF027",
         "series": "BELLA-P-K02",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K02-67-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-K02-67_SF027.b3d"
     },
     {
         "article": "NATALI-P-K02-67-1M-SF027",
         "series": "NATALI-P-K02",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K02-67-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-K02-67_SF027.b3d"
     },
     {
         "article": "SOFIA-P-K02-67-1M-SF027",
         "series": "SOFIA-P-K02",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K02-67-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-K02-67_SF027.b3d"
     },
     {
         "article": "BELLA-L-F21-106-SF027-L",
         "series": "BELLA-L-F21",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F21L-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F21L-106_SF027.b3d"
     },
     {
         "article": "BELLA-L-F21-106-SF027-R",
         "series": "BELLA-L-F21",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F21R-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F21R-106_SF027.b3d"
     },
     {
         "article": "NATALI-L-F21-106-SF027-L",
         "series": "NATALI-L-F21",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-F21L-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-F21L-106_SF027.b3d"
     },
     {
         "article": "NATALI-L-F21-106-SF027-R",
         "series": "NATALI-L-F21",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-F21R-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-F21R-106_SF027.b3d"
     },
     {
         "article": "SOFIA-L-F21-106-SF027-L",
         "series": "SOFIA-L-F21",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-F21L-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-F21L-106_SF027.b3d"
     },
     {
         "article": "SOFIA-L-F21-106-SF027-R",
         "series": "SOFIA-L-F21",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-F21R-106-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-F21R-106_SF027.b3d"
     },
     {
         "article": "BELLA-L-F22-67-SF027-L",
         "series": "BELLA-L-F22",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F22L-67-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F22L-67_SF027.b3d"
     },
     {
         "article": "BELLA-L-F22-67-SF027-R",
         "series": "BELLA-L-F22",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F22R-67-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F22R-67_SF027.b3d"
     },
     {
         "article": "NATALI-L-F22-67-SF027-L",
         "series": "NATALI-L-F22",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-F22L-67-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-F22L-67_SF027.b3d"
     },
     {
         "article": "NATALI-L-F22-67-SF027-R",
         "series": "NATALI-L-F22",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-F22R-67-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-F22R-67_SF027.b3d"
     },
     {
         "article": "SOFIA-L-F22-67-SF027-L",
         "series": "SOFIA-L-F22",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-F22L-67-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-F22L-67_SF027.b3d"
     },
     {
         "article": "SOFIA-L-F22-67-SF027-R",
         "series": "SOFIA-L-F22",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-F22R-67-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-F22R-67_SF027.b3d"
     },
     {
         "article": "BELLA-L-F23-53-SF027-L",
         "series": "BELLA-L-F23",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F23L-53-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F23L-53_SF027.b3d"
     },
     {
         "article": "BELLA-L-F23-53-SF027-R",
         "series": "BELLA-L-F23",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F23R-53-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF027\\Bella-F23R-53_SF027.b3d"
     },
     {
         "article": "NATALI-L-F23-53-SF027-L",
         "series": "NATALI-L-F23",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-F23L-53-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-F23L-53_SF027.b3d"
     },
     {
         "article": "NATALI-L-F23-53-SF027-R",
         "series": "NATALI-L-F23",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-F23R-53-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-F23R-53_SF027.b3d"
     },
     {
         "article": "SOFIA-L-F23-53-SF027-L",
         "series": "SOFIA-L-F23",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-F23L-53-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-F23L-53_SF027.b3d"
     },
     {
         "article": "SOFIA-L-F23-53-SF027-R",
         "series": "SOFIA-L-F23",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-F23R-53-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_SF027\\Sofia-F23R-53_SF027.b3d"
     },
     {
         "article": "SOFIA-S-S20-60-2B-BL",
@@ -1020,12 +1020,12 @@ const acquaCraft = [
     {
         "article": "NATALI-S-S20-60-2B-DV",
         "series": "NATALI-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S20-60-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S20-60_SF027.b3d"
     },
     {
         "article": "NATALI-P-S01-60-2B-SF027",
         "series": "NATALI-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S01-60-SF027.b3d"
+        "link": "\\Серия\\AcquaCraft\\Natali\\Natali_SF027\\Natali-S01-60_SF027.b3d"
     },
     {
         "article": "VIOLETTA-S-T20-60-2B-SF027",
@@ -1065,27 +1065,27 @@ const acquaCraft = [
     {
         "article": "BELLA-P-K02-67-1M-SF013",
         "series": "BELLA-P-K02",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF013\\Bella-K02-67-SF013.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF013\\Bella-K02-67_SF013.b3d"
     },
     {
         "article": "BELLA-P-K01-106-1D-SF013-R",
         "series": "BELLA-P-K01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF013\\Bella-K01R-106-SF013.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF013\\Bella-K01R-106_SF013.b3d"
     },
     {
         "article": "BELLA-P-T02-70-2B-SF013",
         "series": "BELLA-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF013\\Bella-T02-70-SF013.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_SF013\\Bella-T02-70_SF013.b3d"
     },
     {
         "article": "BELLA-P-K01-106-1D-LS935-R",
         "series": "BELLA-P-K01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_LS935\\Bella-K01R-106-LS935.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_LS935\\Bella-K01R-106_LS935.b3d"
     },
     {
         "article": "BELLA-P-K02-67-1M-LS935",
         "series": "BELLA-P-K02",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_LS935\\Bella-K02-67-LS935.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_LS935\\Bella-K02-67_LS935.b3d"
     },
     {
         "article": "SOFIA-S-T20-80-2B-BL",
@@ -1140,17 +1140,17 @@ const acquaCraft = [
     {
         "article": "SOFIA-S-T20-60-2B-LS935",
         "series": "SOFIA-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_LS935\\Sofia-T20-60-LS935.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_LS935\\Sofia-T20-60_LS935.b3d"
     },
     {
         "article": "SOFIA-S-T20-80-2B-LS935",
         "series": "SOFIA-S-T20",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_LS935\\Sofia-T20-80-LS935.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_LS935\\Sofia-T20-80_LS935.b3d"
     },
     {
         "article": "SOFIA-S-S20-70-2B-LS935",
         "series": "SOFIA-S-S20",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_LS935\\Sofia-S20-70-LS935.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_LS935\\Sofia-S20-70_LS935.b3d"
     },
     {
         "article": "VIOLETTA-P-K03-53-2B-SF019",
@@ -1160,22 +1160,22 @@ const acquaCraft = [
     {
         "article": "BELLA-P-S01-70-2B-LS935",
         "series": "BELLA-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_LS935\\Bella-S01-70-LS935.b3d"
+        "link": "\\Серия\\AcquaCraft\\Bella\\Bella_LS935\\Bella-S01-70_LS935.b3d"
     },
     {
         "article": "SOFIA-P-T02-60-2B-LS935",
         "series": "SOFIA-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_LS935\\Sofia-T02-60-LS935.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_LS935\\Sofia-T02-60_LS935.b3d"
     },
     {
         "article": "SOFIA-P-T02-80-2B-LS935",
         "series": "SOFIA-P-T02",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_LS935\\Sofia-T02-80-LS935.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_LS935\\Sofia-T02-80_LS935.b3d"
     },
     {
         "article": "SOFIA-P-S01-70-2B-LS935",
         "series": "SOFIA-P-S01",
-        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_LS935\\Sofia-S01-70-LS935.b3d"
+        "link": "\\Серия\\AcquaCraft\\Sofia\\Sofia_LS935\\Sofia-S01-70_LS935.b3d"
     }
 ]
 
